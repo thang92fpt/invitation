@@ -35719,7 +35719,7 @@ function FooterSection({
     className: "col-md-12 text-center"
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("p", null, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("small", {
     className: "block"
-  }, "\xA9 2020 Dinda & Indra Wedding. All Rights Reserved."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("small", {
+  }, "\xA9 2020 Arin & Miftah Wedding. All Rights Reserved."), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("small", {
     className: "block"
   }, "Covid-19 Icon by", ' ', Object(_emotion_core__WEBPACK_IMPORTED_MODULE_3__["jsx"])("a", {
     href: "https://www.flaticon.com/packs/covid-protection-measures-5",
@@ -35912,7 +35912,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 const IMAGE_URL = `https://thekusuma.com/static/slide-6-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Dinda & Indra`;
+const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Arin & Miftah`;
 
 function MainLayout({
   children
@@ -35923,7 +35923,7 @@ function MainLayout({
     href: _assets_images_dinda_indra_png__WEBPACK_IMPORTED_MODULE_3___default.a
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("meta", {
     property: "og:title",
-    content: "The Wedding of Dinda & Indra"
+    content: "The Wedding of Arin & Miftah"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("meta", {
     property: "og:image",
     content: IMAGE_URL
@@ -35932,13 +35932,13 @@ function MainLayout({
     content: "https://thekusuma.com"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("meta", {
     property: "og:site_name",
-    content: "The Wedding of Dinda & Indra"
+    content: "The Wedding of Arin & Miftah"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("meta", {
     property: "og:description",
     content: META_DESCRIPTION
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("meta", {
     name: "twitter:title",
-    content: "The Wedding of Dinda & Indra"
+    content: "The Wedding of Arin & Miftah"
   }), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("meta", {
     name: "twitter:description",
     content: META_DESCRIPTION
@@ -36030,7 +36030,7 @@ function LocationSection() {
     allowFullScreen: true,
     "aria-hidden": "false",
     tabIndex: "0",
-    title: "Google Maps - Dinda & Indra Wedding Party"
+    title: "Google Maps - Arin & Miftah Wedding Party"
   }))))));
 }
 
@@ -36107,7 +36107,7 @@ __webpack_require__.r(__webpack_exports__);
 function PhotoSection() {
   const renderYoutubeVideo = () => {
     return Object(_emotion_core__WEBPACK_IMPORTED_MODULE_4__["jsx"])("iframe", {
-      title: "Pre-Wedding Dinda & Indra",
+      title: "Pre-Wedding Arin & Miftah",
       width: "100%",
       height: "360px",
       src: "https://www.youtube.com/embed/75w39OY7N-k",
@@ -36952,7 +36952,7 @@ function WelcomeSection({
     className: "sub-title"
   }, "The Wedding of"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("h1", {
     className: "title"
-  }, "Dinda & Indra"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("div", {
+  }, "Arin & Miftah"), Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("div", {
     className: isAnonymGuest ? 'margin__bottom' : ''
   }, Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])(_CountContainer__WEBPACK_IMPORTED_MODULE_4__["default"], null)), renderGuestSection(), isInvitation && Object(_emotion_core__WEBPACK_IMPORTED_MODULE_7__["jsx"])("div", {
     className: "row",
@@ -37589,7 +37589,7 @@ const wishlist = [{
   image: _assets_w_ihsan_jpg__WEBPACK_IMPORTED_MODULE_9___default.a
 }, {
   name: 'Zakiy Anwar Fahri',
-  infoName: 'Sahabat Dinda & Indra',
+  infoName: 'Sahabat Arin & Miftah',
   description: `Hai Indra & Dinda, sebelum nya aku ucapin selamat akhirnya mencapai pernikahan. Semoga pernikahannya lancar dan menjadi keluarga sakinah mawahdah warahmah. Sebagai sahabat mu sejak awal kuliah kita berjuang bersama dan akhirnya sampai titik ini aku seneng banget kamu bisa menggapai cita-cita mu pelan-pelan, setelah ini kamu akan memulai perjalan dengan seorang yang akan lebih setia dari Sahabat yaitu Istri (Dinda), tetep sabar dan setia ya Ndra. Nahh, untuk Dinda bantu sahabat ku semakin baik ya hehe. :D`,
   image: _assets_images_w_zakiy_jpg__WEBPACK_IMPORTED_MODULE_1___default.a
 }, {
@@ -37666,7 +37666,7 @@ const wishlist = [{
 }, {
   name: 'Puspita Dewi',
   infoName: 'Rekan Kerja Dinda, Ruangguru',
-  description: `"Dear Dinda & Indra,
+  description: `"Dear Arin & Miftah,
     Barakallahu lakuma wa jama’a baina kuma fii khair.
     Semoga pernikahan kalian bisa menjadi ladang ibadah dan pahala, dan menjadi pasangan sehidup sesurga. Sakinah, mawaddah wa rahmah selalu. Amiin"`,
   image: _assets_w_puspita_jpg__WEBPACK_IMPORTED_MODULE_12___default.a
@@ -37678,7 +37678,7 @@ const wishlist = [{
 }, {
   name: 'Emsho',
   infoName: 'Rekan Kerja Dinda, NET TV',
-  description: `Indra. Sebuwah nama yang sayup sering tak denger saat ciwi ciwi ex net jateng pada rerumpian godain Dinda, kalo pas break syuting Hikayat Insani, medio 2018 lalu. Ada yang cengin, dia nya tersipu malu.. Eh, alhamdulillaah cinta mereka akhirnya berlabuh hingga ke tahap ini. Selamat buat Dinda & Indra. Bahagia selamanya yaa.. `,
+  description: `Indra. Sebuwah nama yang sayup sering tak denger saat ciwi ciwi ex net jateng pada rerumpian godain Dinda, kalo pas break syuting Hikayat Insani, medio 2018 lalu. Ada yang cengin, dia nya tersipu malu.. Eh, alhamdulillaah cinta mereka akhirnya berlabuh hingga ke tahap ini. Selamat buat Arin & Miftah. Bahagia selamanya yaa.. `,
   image: _assets_w_emsho_jpg__WEBPACK_IMPORTED_MODULE_15___default.a
 }, {
   name: 'Alvia Tri',
