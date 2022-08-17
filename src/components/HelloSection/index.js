@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-indra.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '03 Oktober 2020, HARRIS Hotel Sentraland, Semarang' : 'Sabtu, 03 Oktober 2020';
+  const finalSubtitle = isInvitation ? '11 September 2022, Baleendah, Bandung' : 'Minggu, 11 September 2022';
 
   return (
     <Fragment>
@@ -30,9 +30,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">Dinda Saraswati, S.I.Kom.</h3>
+                <h3 className="main-font">Arini Dewi Al-Faaz</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Totok Somo Dipoyono <br />& Ibu Setyo Listiani
+                  Putri Bapak Romli Hidayat <br />& Ibu Siti Zainah (Ipih)
                 </p>
               </div>
             </div>
@@ -47,9 +47,9 @@ function HelloSection({ isInvitation }) {
                 <img src={Groom} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-bride">
-                <h3 className="main-font">Indra Kusuma, S.Kom.</h3>
+                <h3 className="main-font">Miftahussalam</h3>
                 <p className="parent-name">
-                  Putra Bapak Bunari <br />& Ibu Suratun
+                  Putra Bapak Atang <br />& Ibu Manah
                 </p>
               </div>
             </div>
