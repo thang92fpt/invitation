@@ -8,7 +8,6 @@ Features:
  - Live Button
  - Floating Music
  - Photo Gallery
- - Pre-wedding Video 
  - And more..
 - also, this web-app has QR Guest Generator
 - and Guest Tikcet Viewer

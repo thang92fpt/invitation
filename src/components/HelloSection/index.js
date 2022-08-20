@@ -63,11 +63,11 @@ function HelloSection({ isInvitation }) {
               <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
                 <h2 className="main-font">Seputar Covid-19</h2>
                 <p className="info">
-                  Berkaitan dengan kondisi pandemik saat ini, keberlangsungan acara kami mengacu pada pedoman
-                  Kementerian Kesehatan, yaitu memberlakukan protokol kesehatan dan pembatasan jumlah tamu undangan.
+                  Berkaitan dengan kondisi pandemi saat ini yang belum berakhir, kami mengingatkan kepada seluruh tamu undangan
+                  untuk mengikuti himbauan Kementerian Kesehatan, yaitu dengan tetap mentaati protokol kesehatan.
                 </p>
                 <p className="info">
-                  Maka dari itu, dengan segala kerendahan hati, kami mohon maaf apabila belum bisa mengundang saudara/i
+                  Selain itu, dengan segala kerendahan hati, kami mohon maaf apabila ada diantara saudara/i yang belum bisa kami undang
                   di hari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
                   selalu dalam lindungan Allah SWT. Aamiin ya rabbal alamiin..
                 </p>

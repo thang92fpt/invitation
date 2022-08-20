@@ -24,7 +24,7 @@ function PhotoSection() {
         <div className="row">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <h2 className="main-font">#TheKusuma</h2>
+              <h2 className="main-font">#ArinMiftah</h2>
               <p className="sub-title">
                 "And of His signs is that He created for you from yourselves mates that you may find tranquility in
                 them; and He placed between you affection and mercy. Indeed in that are signs for a people who give
@@ -32,9 +32,6 @@ function PhotoSection() {
                 (Ar-Rum 30:21).
               </p>
             </div>
-          </div>
-          <div className="row">
-            <div className="col-md-10 col-md-offset-1">{renderYoutubeVideo()}</div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">

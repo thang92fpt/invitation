@@ -2,7 +2,7 @@ import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
 
 import WeddingInfoBox from './WeddingInfoBox';
-import ButtonLive from './ButtonLive';
+//import ButtonLive from './ButtonLive';
 import { styWrapper } from './styles';
 
 function WeddingSection({ isInvitation }) {
