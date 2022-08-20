@@ -18,7 +18,7 @@ function HelloSection({ isInvitation }) {
               <h2 className="main-font">Assalamualaikum Wr. Wb</h2>
               <h3 className="sub-title hs">{finalSubtitle}</h3>
               <p className="info">
-                Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk
+                Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah SAW untuk membentuk
                 rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan
                 keberkahan.
               </p>
@@ -32,7 +32,7 @@ function HelloSection({ isInvitation }) {
               <div className="desc-groom">
                 <h3 className="main-font">Arini Dewi Al-Faaz</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Romli Hidayat <br />& Ibu Siti Zainah (Ipih)
+                  Putri Bapak Romli Hidayat <br />& Ibu Siti Zainah Zakiyah (Ipih)
                 </p>
               </div>
             </div>
@@ -64,12 +64,12 @@ function HelloSection({ isInvitation }) {
                 <h2 className="main-font">Seputar Covid-19</h2>
                 <p className="info">
                   Berkaitan dengan kondisi pandemik saat ini, keberlangsungan acara kami mengacu pada pedoman
-                  Kementerian Kesehatan, yaitu memberlakukan pembatasan jarak dan pembatasan jumlah tamu undangan.
+                  Kementerian Kesehatan, yaitu memberlakukan protokol kesehatan dan pembatasan jumlah tamu undangan.
                 </p>
                 <p className="info">
-                  Maka dari itu, dengan segala kerendahan hati, kami mohon maaf jika belum bisa mengundang saudara/i
-                  dihari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
-                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal allamiin..
+                  Maka dari itu, dengan segala kerendahan hati, kami mohon maaf apabila belum bisa mengundang saudara/i
+                  di hari bahagia kami. Sekiranya do'a dari saudara/i sudah lebih dari cukup bagi kami. Semoga kita semua
+                  selalu dalam lindungan Allah SWT. Aamiin ya rabbal alamiin..
                 </p>
               </div>
             </div>

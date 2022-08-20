@@ -16,7 +16,7 @@ function CountContainer() {
             {`ACARA ${finalText} BERLANGSUNG!`}
           </div>
         </div>
-        <ButtonLive />
+
       </>
     );
 
