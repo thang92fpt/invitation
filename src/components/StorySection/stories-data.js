@@ -9,14 +9,14 @@ export const stories = [
     title: 'Perkenalan ',
     date: '21 Juli 2020',
     description:
-      'Kami bisa berkenalan melalui wasilah teman kerja saya, lebih tepatnya salah satu atasan saya di tempat kerja yang kebetulan juga merupakan om nya Arin. Kami berkenalan secara online tanpa pernah bertemu secara langsung sampai kurang lebih dua tahun ke depan. Kami pun saling follow di sosial media tapi hampir tidak ada komunikasi, hanya beberapa kali saling komen story. Pada saat itu tidak banyak yang saya tau dari Arin, saya hanya diberi tau oleh om nya bahwa Arin ini baru daftar kuliah setelah sebelumnya berhenti 2 tahun sejak lulus SMA karna mengikuti program tahfidz di salah satu pondok tahfidz di Bandung',
+      'Kami bisa berkenalan melalui wasilah teman kerja saya, lebih tepatnya salah satu atasan saya di tempat kerja yang kebetulan juga merupakan om nya Arin. Kami berkenalan secara online tanpa pernah bertemu secara langsung sampai kurang lebih dua tahun ke depan. Kami pun saling follow di sosial media tapi hampir tidak ada komunikasi, hanya beberapa kali saling komen story. Pada saat itu tidak banyak yang saya tau tentang Arin, saya hanya diberi tau oleh om nya bahwa Arin ini baru daftar kuliah setelah sebelumnya berhenti 2 tahun sejak lulus SMA karna mengikuti pendidikkan tahfidz di salah satu pondok tahfidz di Bandung.',
     image: '',
   },
   {
     title: 'Kembali Berkomunikasi',
     date: '31 Desember 2021',
     description:
-      'Di penghujung tahun 2021 Arin mengunggah beberapa story mengenai resolusi 2022, saya pun iseng mengomentari dan Arin membalasnya. Dari percakapan tersebut kemudian saya memberanikan diri untuk ngajak ketemu agar bisa berkenalan secara langsung dan Arin pun setuju. Selanjutnya kami tinggal menentukan tempat dan waktu berhubung kami sama-sama punya kesibukan',
+      'Di penghujung tahun 2021 Arin mengunggah beberapa story mengenai resolusi 2022, saya pun iseng mengomentari dan Arin membalasnya. Dari percakapan tersebut kemudian saya memberanikan diri untuk ngajak ketemu agar bisa berkenalan secara langsung dan Arin pun setuju. Selanjutnya kami tinggal menentukan tempat dan waktu berhubung kami sama-sama punya kesibukan.',
     image: ImgKembaliBerjumpa,
   },
   {
@@ -28,16 +28,16 @@ export const stories = [
   },
   {
     title: 'Perkenalan Keluarga',
-    date: 'Januari - Februari 2022',
+    date: '15, 22, 30 Januari 2022',
     description:
-      'Beberapa hari setelah berjumpa saya diminta oleh orang tua Arin untuk datang ke rumah dan saya pun meng-iya-kan. Saya datang ke rumah Arin tepat seminggu setelah kami berjumpa. Di sana saya bertemu dengan orang tua nya dan juga kakak beserta kakak ipar nya, karna Arin merupakan anak bungsu. Perkenalan dengan keluarga ini berlanjut ke minggu berikutnya dan di minggu depannya lagi tanggal 30 Januari 2022 giliran Arin yang bertemu keluarga saya.',
+      'Beberapa hari setelah berjumpa saya diminta oleh orang tua Arin untuk datang ke rumah dan saya pun menyanggupi. Saya datang ke rumah Arin tepat seminggu setelah kami berjumpa. Di sana saya bertemu dengan orang tua nya dan juga kakak beserta kakak ipar nya, karna Arin merupakan anak bungsu. Perkenalan dengan keluarga ini berlanjut ke minggu berikutnya dan di minggu depannya lagi tanggal 30 Januari 2022 giliran Arin yang bertemu keluarga saya.',
     image: ImgBoarding,
   },
   {
     title: 'Khitbah',
     date: '19 Februari 2022',
     description:
-      'Setelah perkenalan singkat dan beberapa kali bertemu dengan orang tua akhirnya kami memutuskan untuk melanjutkan ke proses berikutnya, yaitu khitbah.',
+      'Setelah perkenalan singkat dan beberapa kali bertemu dengan orang tua kemudian kami memutuskan untuk melanjutkan ke proses berikutnya, yaitu khitbah.',
     image: ImgKembaliKeIndonesia,
   },
   {
