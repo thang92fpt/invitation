@@ -3,6 +3,7 @@ import ImgJakartaKroasia from '@assets/images/p-jakarta-kroasia.jpg';
 import ImgBoarding from '@assets/images/p-boarding-smg.jpg';
 import ImgKembaliKeIndonesia from '@assets/images/p-kembali-ke-indonesia.jpg';
 import ImgNdodokLawang from '@assets/images/p-ndodok-lawang.jpg';
+import ImgKhitbah from '@assets/images/khitbah.jpg';
 
 export const stories = [
   {
@@ -38,7 +39,7 @@ export const stories = [
     date: '19 Februari 2022',
     description:
       'Setelah perkenalan singkat dan beberapa kali bertemu dengan orang tua kemudian kami memutuskan untuk melanjutkan ke proses berikutnya, yaitu khitbah.',
-    image: ImgKembaliKeIndonesia,
+    image: ImgKhitbah,
   },
   {
     title: 'Pertemuan Orang Tua',
