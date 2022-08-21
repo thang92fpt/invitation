@@ -1,5 +1,9 @@
 import Gallery1 from '@assets/images/gallery-1.jpg';
 import GalleryT1 from '@assets/images/gallery-t-1.jpg';
+import Gallery2 from '@assets/images/gallery-2.jpg';
+//import GalleryT2 from '@assets/images/gallery-t-2.jpg';
+import Gallery3 from '@assets/images/gallery-3.jpg';
+//import GalleryT3 from '@assets/images/gallery-t-3.jpg';
 import Gallery4 from '@assets/images/gallery-4.jpg';
 import GalleryT4 from '@assets/images/gallery-t-4.jpg';
 import Gallery5 from '@assets/images/gallery-5.jpg';
@@ -35,12 +39,12 @@ export const photos = [
     thumbnail: GalleryT1,
   },
   {
-    original: Image6,
-    thumbnail: Image6thumb,
+    original: Gallery2,
+    thumbnail: GalleryT1,
   },
   {
-    original: Image5,
-    thumbnail: Image5thumb,
+    original: Gallery3,
+    thumbnail: GalleryT1,
   },
   {
     original: Gallery4,
