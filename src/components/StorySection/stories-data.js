@@ -7,6 +7,7 @@ import ImgKhitbah from '@assets/images/khitbah.jpg';
 import ImgTransStudio from '@assets/images/trans-studio.jpg';
 import ImgPerkenalanKeluarga from '@assets/images/perkenalan-keluarga.jpg';
 import ImgPertemuanKeluarga from '@assets/images/pertemuan-keluarga.jpg';
+import ImgArinMiftah from '@assets/images/arin-miftah.png';
 
 export const stories = [
   {
@@ -49,6 +50,6 @@ export const stories = [
     date: '25 Juni 2022',
     description:
       'Akhirnya tiba di masa di mana saya dan orang tua kembali berkunjung ke rumah Arin untuk menentukan tanggal pernikahan yang disepakati akan diselenggarakan pada hari Minggu tanggal 11 September 2022.',
-    image: '',
+    image: ImgArinMiftah,
   },
 ];
