@@ -35,7 +35,7 @@ export const stories = [
     title: 'Perkenalan Keluarga',
     date: '15, 22, 30 Januari 2022',
     description:
-      'Beberapa hari setelah berjumpa saya diminta oleh orang tua Arin untuk datang ke rumah dan saya pun menyanggupi. Saya datang ke rumah Arin tepat seminggu setelah kami berjumpa. Di sana saya bertemu dengan orang tua nya dan juga kakak beserta kakak ipar nya, karna Arin merupakan anak bungsu. Perkenalan dengan keluarga ini berlanjut ke minggu berikutnya dan di minggu depannya lagi tanggal 30 Januari 2022 giliran Arin yang bertemu keluarga saya.',
+      'Beberapa hari setelah berjumpa saya diminta oleh orang tua Arin untuk datang ke rumah dan saya pun menyanggupi. Saya datang ke rumah Arin tepat seminggu setelah kami berjumpa. Di sana saya bertemu dengan orang tua nya dan juga kakak beserta kakak ipar nya, karna Arin merupakan anak bungsu. Perkenalan dengan keluarga ini berlanjut ke minggu berikutnya, dan di minggu depannya lagi tanggal 30 Januari 2022 giliran Arin yang bertemu keluarga saya.',
     image: ImgPerkenalanKeluarga,
   },
   {
