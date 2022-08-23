@@ -36,62 +36,62 @@ import GalleryT15 from '@assets/images/gallery-t-15.jpg';
 export const photos = [
   {
     original: Gallery1,
-    thumbnail: GalleryT1,
+    thumbnail: Gallery1,
   },
   {
     original: Gallery2,
-    thumbnail: GalleryT1,
+    thumbnail: Gallery2,
   },
   {
     original: Gallery3,
-    thumbnail: GalleryT1,
+    thumbnail: Gallery3,
   },
   {
     original: Gallery4,
-    thumbnail: GalleryT4,
+    thumbnail: Gallery4,
   },
   {
     original: Gallery5,
-    thumbnail: GalleryT5,
+    thumbnail: Gallery5,
   },
   {
     original: Gallery6,
-    thumbnail: GalleryT6,
+    thumbnail: Gallery6,
   },
   {
     original: Gallery7,
-    thumbnail: GalleryT7,
+    thumbnail: Gallery7,
   },
   {
     original: Gallery8,
-    thumbnail: GalleryT8,
+    thumbnail: Gallery8,
   },
   {
     original: Gallery9,
-    thumbnail: GalleryT9,
+    thumbnail: Gallery9,
   },
   {
     original: Gallery10,
-    thumbnail: GalleryT10,
+    thumbnail: Gallery10,
   },
   {
     original: Gallery11,
-    thumbnail: GalleryT11,
+    thumbnail: Gallery11,
   },
   {
     original: Gallery12,
-    thumbnail: GalleryT12,
+    thumbnail: Gallery12,
   },
   {
     original: Gallery13,
-    thumbnail: GalleryT13,
+    thumbnail: Gallery13,
   },
   {
     original: Gallery14,
-    thumbnail: GalleryT14,
+    thumbnail: Gallery14,
   },
   {
     original: Gallery15,
-    thumbnail: GalleryT15,
+    thumbnail: Gallery15,
   },
 ];
