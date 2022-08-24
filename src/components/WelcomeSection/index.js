@@ -77,8 +77,6 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               </div>
               <br></br>
               <br></br>
-              <br></br>
-              <br></br>
               <div className="row" css={styButtonWrapper}>
                   <div className="col-md-3">
                     <a href={GOOGLE_CALENDAR_LINK} title="Add to My Calendar" target="_blank" rel="noreferrer">
