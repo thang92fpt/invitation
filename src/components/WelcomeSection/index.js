@@ -95,6 +95,7 @@ function WelcomeSection({ location, guestName, isInvitation, isAnonymGuest, code
               )}
             </div>
           </div>
+          <br></br>
           <div className="row">
             <ScrollToDown loading={loading} onClick={handleShowDetail} />
           </div>

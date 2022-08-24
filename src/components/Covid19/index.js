@@ -14,24 +14,21 @@ function CovidSection() {
       <div className="container">
         <div className="row">
           <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-            <h2 className="main-font">Panduan Protokol Covid-19</h2>
+            <h2 className="main-font">Informasi Tambahan</h2>
             <p className="info" style={{ marginBottom: '-16px' }}>
-              Keberlangsungan acara ini mengacu pada pedoman kesehatan dari Kementerian Kesehatan:
+              Berkaitan dengan kondisi pandemi saat ini yang belum berakhir, kami mengingatkan kepada seluruh tamu undangan
+              untuk mengikuti himbauan Kementerian Kesehatan, yaitu dengan tetap mentaati protokol kesehatan.
             </p>
           </div>
         </div>
         {/* BOX INFO */}
         <div className="row">
           <div className="col-md-12">
-            <SectionBox icon={IconMask} text="Wajib menggunakan masker dan dilakukan pengecekan suhu." />
-            <SectionBox icon={IconSocialDistancing} text="Pembatasan jarak dan pembatasan jumlah tamu." />
-            <SectionBox icon={IconGuest} text="Satu undangan hanya untuk 2 orang tamu." />
-            <SectionBox
-              icon={IconDoctor}
-              text="Dipantau tim dokter dan disediakan hand sanitizer di berbagai titik. "
-            />
-            <SectionBox icon={IconQRcode} text="Wajib membawa QRCode untuk meminimalisir kontak fisik melalui pena. " />
-            <SectionBox icon={IconClock} text="Wajib hadir sesuai sesuai waktu yang tertera di undangan." />
+            <SectionBox icon={IconMask} text="Menggunakan masker." />
+            <SectionBox icon={IconSocialDistancing} text="Pembatasan jarak." />
+            <SectionBox icon={IconGuest} text="Satu undangan dipakai untuk 1-2 orang tamu (bersama pasangan)." />
+            <SectionBox icon={IconQRcode} text="QRCode berisi link e-ticket." />
+            <SectionBox icon={IconClock} text="Diharapkan hadir sesuai waktu yang sudah ditentukan." />
           </div>
         </div>
       </div>
