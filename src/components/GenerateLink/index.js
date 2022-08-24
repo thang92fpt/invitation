@@ -59,12 +59,6 @@ function GenerateLink() {
     if (type === ALL) {
       return (
         <Fragment>
-          <div class="checkbox">
-            <label>
-              <input type="checkbox" checked={isInvitation} onClick={() => setIsInvitation(!isInvitation)} /> Tipe
-              Invitation (Datang offline)
-            </label>
-          </div>
           <button type="submit" class="btn btn-primary" onClick={() => setShowResult(true)}>
             Generate Link
           </button>
@@ -85,12 +79,11 @@ function GenerateLink() {
               {URL}
             </a>
             <button
-              type="button"
-              className="btn btn-default btn-xs"
-              style={{ marginLeft: '8px' }}
-              onClick={() => handleCopy(URL)}
+              className="btn btn-default btn-sm"
+              style={{ fontSize: '12px', padding: '4px 8px', marginLeft: '4px' }}
+              onClick={() => handleCopy(URL, true)}
             >
-              {successCopy ? 'Tersalin' : 'Salin'}
+              copy
             </button>
           </div>
         </div>
@@ -112,8 +105,7 @@ function GenerateLink() {
               </thead>
               <tbody>
                 {data.map((d, index) => {
-                  const offlineInvitation = isInvitation ? `&type=invitation&code=${d.code}` : '';
-                  const mapURL = `http://arin.miftahussalam.com?to=${encodeURIComponent(d.name)}${offlineInvitation}`;
+                  const mapURL = `http://arin.miftahussalam.com?to=${encodeURIComponent(d.name)}&type=invitation&code=${d.code}`;
                   return (
                     <tr>
                       <td>{index + 1}</td>
