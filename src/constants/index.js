@@ -1,7 +1,7 @@
 /**
  * Link
  */
-export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20220911T040000Z%2F20220911T060000Z&text=Arin+%26+Miftah+Wedding&details=Arin+%26+Miftah+Wedding`;
+export const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/event?action=TEMPLATE&dates=20220911T010000Z%2F20220911T080000Z&text=Arin+%26+Miftah+Wedding&details=Arin+%26+Miftah+Wedding`;
 export const GOOGLE_MAPS_LINK = `https://g.page/HARRISHotelSentralandSemarang?share`;
 
 /**
