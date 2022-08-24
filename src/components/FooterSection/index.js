@@ -5,22 +5,6 @@ import { styWrapper } from '../HelloSection/styles';
 function FooterSection({ isInvitation }) {
   return (
     <Fragment>
-      {!isInvitation && (
-        <div id="fh5co-couple" className="fh5co-section-gray" css={styWrapper}>
-          <div className="container">
-            <div className="row">
-              <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                <h2 className="main-font">Terima Kasih</h2>
-                <p className="info">
-                  Atas segala do'a dan restu saudara/i,
-                  <br /> kami ucapkan terima kasih. <br />
-                  Wassalamu'alaikum warahmatullahi wabarakaatuh.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      )}
       <footer id="fh5co-footer" role="contentinfo">
         <div className="container">
           <div className="row copyright">
