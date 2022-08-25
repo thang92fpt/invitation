@@ -32,6 +32,15 @@ function ConfirmationSection({ isInvitation, guestName, codeLink }) {
           </div>
         </div>
         )}
+        {!isInvitation && (
+        <div className="row" css={styFlex}>
+          <div className="col-md-3">
+            <br></br>
+            <br></br>
+            <br></br>
+          </div>
+        </div>
+        )}
       </div>
     </div>
   );

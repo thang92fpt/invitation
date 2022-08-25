@@ -39,7 +39,7 @@ function Home({ location }) {
         <HelloSection isInvitation={isInvitation} />
         <WeddingSection isInvitation={isInvitation} />
         <CovidSection />
-        {isInvitation && <LocationSection />}
+        <LocationSection />
         <StorySection />
         <PhotoSection />
         <WishesSection />
