@@ -26,8 +26,8 @@ function CovidSection() {
           <div className="col-md-12">
             <SectionBox icon={IconMask} text="Menggunakan masker." />
             <SectionBox icon={IconSocialDistancing} text="Pembatasan jarak." />
-            <SectionBox icon={IconGuest} text="Satu undangan dipakai untuk 1-2 orang tamu (bersama pasangan)." />
-            <SectionBox icon={IconQRcode} text="QRCode berisi link e-ticket." />
+            <SectionBox icon={IconGuest} text="Satu undangan terdiri dari 1-2 orang tamu (bersama pasangan)." />
+            <SectionBox icon={IconQRcode} text="QRCode berisi link e-invitation." />
             <SectionBox icon={IconClock} text="Diharapkan hadir sesuai waktu yang sudah ditentukan." />
           </div>
         </div>

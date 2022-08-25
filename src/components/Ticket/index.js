@@ -19,9 +19,9 @@ function TicketData({ guest, configData }) {
           <div class="tdata name">{guest.name}</div>
           <div class="tinfo">Keterangan</div>
           <div class="tdata">{guest.desc}</div>
-          <div class="tinfo">Syukuran Pernikahan / Shift</div>
+          <div class="tinfo">Waktu</div>
           <div class="tdata">
-            {`${configData.shiftType?.[guest.shift]} / ${guest.shift}` || '11.00 WIB - 13.00 WIB'}
+            11.00 s/d 15.00 WIB
           </div>
           {/* attendance */}
           {guest.isAttended ? (
@@ -42,16 +42,15 @@ function TicketData({ guest, configData }) {
             </>
           ) : null}
           {/* Additional info */}
-          <div class="tinfo">Penting</div>
+          <div class="tinfo">Note:</div>
           <div class="tdata additional">
             <ul style={{ paddingLeft: '16px' }}>
               <li>
-                {`Setiap tamu yang hadir wajib menunjukkan QRCode ini sebagai pengganti buku tamu untuk untuk meminimalisir kontak fisik melalui pena.`}
+                QRCode berisi link e-invitation
               </li>
-              <li style={{ textTransform: 'uppercase' }}>
-                Dalam rangka mematuhi protokol kesehatan,
+              <li>
                 <span style={{ color: '#f14e95', textTransform: 'uppercase' }}>
-                  {` 1 undangan hanya berlaku untuk 2 orang tamu`}
+                  {`Diharapkan hadir sesuai waktu yang sudah ditentukan`}
                 </span>
               </li>
             </ul>
