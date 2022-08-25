@@ -21,7 +21,7 @@ export const wishlist = [
   {
     name: 'Angelina Jolie',
     infoName: 'Teman SMA Miftah',
-    description: `Semoga pernikahan ini membawa Dinda dan Indra dalam ketentraman (sakinah), cinta (mawaddah) dan welas asih (rohmah). Jika saja semakin tumbuhnya cinta itu tak muat masuk ke rongga dada, semoga Allah berikan kelapangan rasa. Semoga Allah mudahkan segala tujuan awal saat kalian berdua memutuskan bersama:)`,
+    description: `Semoga pernikahan ini membawa Arin dan Miftah dalam ketentraman (sakinah), cinta (mawaddah) dan welas asih (rohmah). Jika saja semakin tumbuhnya cinta itu tak muat masuk ke rongga dada, semoga Allah berikan kelapangan rasa. Semoga Allah mudahkan segala tujuan awal saat kalian berdua memutuskan bersama:)`,
     image: angel,
   },
   {
