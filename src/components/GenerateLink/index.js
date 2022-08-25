@@ -24,16 +24,14 @@ function GenerateLink() {
   };
 
   const handleCopy = async (text, showAlert = false) => {
-    navigator.clipboard
-      .writeText(text)
-      .then(() => {
-        setSuccessCopy(true);
-        showAlert && alert("successfully copied");
-      })
-      .catch(() => {
-        setSuccessCopy(false);
-        alert("something went wrong");
-      });
+    try {
+      await navigator.clipboard.writeText(text);
+      setSuccessCopy(true);
+      showAlert && alert('successfully copied');
+    } catch (err) {
+      setSuccessCopy(false);
+      alert('something went wrong');
+    }
   };
 
   const renderContentType = () => {
