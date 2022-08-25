@@ -9,6 +9,7 @@ function GenerateLink() {
   const [name, setName] = useState();
   const [showResult, setShowResult] = useState(false);
   const [successCopy, setSuccessCopy] = useState(false);
+  const copy = require('clipboard-copy')
 
   const { data, loading } = useGuestData();
 
@@ -25,7 +26,7 @@ function GenerateLink() {
 
   const handleCopy = async (text, showAlert = false) => {
     try {
-      await navigator.clipboard.writeText(text);
+      copy(text);
       setSuccessCopy(true);
       showAlert && alert('successfully copied');
     } catch (err) {
