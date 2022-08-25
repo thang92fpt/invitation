@@ -6,12 +6,13 @@ import { Link } from 'gatsby';
 import { styWrapper } from './styles';
 
 function TicketData({ guest, configData }) {
+  const URL = `http://arin.miftahussalam.com?to=${encodeURIComponent(guest.name)}&type=invitation&code=${guest.code}`;
   return (
     <div css={styWrapper}>
       <div class="container">
         <div class="ticket">
           <div id="qrcode">
-            <QRCode value={guest.code} size={250} />
+            <QRCode value={URL} size={250} />
           </div>
         </div>
         <div class="details">
