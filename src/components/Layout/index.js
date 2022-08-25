@@ -3,13 +3,13 @@ import { Helmet } from 'react-helmet';
 import { node } from 'prop-types';
 
 import Favicon from '@assets/images/arin-miftah-favicon.png';
-import IMAGE_URL from '@assets/images/khitbah.jpg';
+import IMAGE_URL from '@assets/images/khitbah-meta.jpg';
 import '@assets/css/icomoon.css';
 import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 //const IMAGE_URL = `http://arin.miftahussalam.com/static/khitbah-4715e29302dbaa2ba21494c6258298d4.jpg`;
-const META_DESCRIPTION = `Aih aneh Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Arin & Miftah`;
+const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Arin & Miftah`;
 
 function MainLayout({ children }) {
   return (
@@ -21,7 +21,7 @@ function MainLayout({ children }) {
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="hahaha The Wedding of Arin & Miftah" />
+        <meta property="og:title" content="The Wedding of Arin & Miftah" />
         <meta property="og:image" content={IMAGE_URL} />
         <meta property="og:url" content="http://arin.miftahussalam.com" />
         <meta property="og:site_name" content="The Wedding of Arin & Miftah" />
@@ -31,7 +31,7 @@ function MainLayout({ children }) {
         <meta name="twitter:image" content={IMAGE_URL} />
         <meta name="twitter:url" content="http://arin.miftahussalam.com" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@idindrakusuma" />
+        <meta name="twitter:creator" content="@mif_salam" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"
