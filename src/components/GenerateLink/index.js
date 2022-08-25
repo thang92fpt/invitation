@@ -8,8 +8,7 @@ function GenerateLink() {
   const [type, setType] = useState(PERSONAL);
   const [name, setName] = useState();
   const [showResult, setShowResult] = useState(false);
-  const [successCopy, setSuccessCopy] = useState(false);
-  const [isInvitation, setIsInvitation] = useState(false);
+  const [setSuccessCopy] = useState(false);
 
   const { data, loading } = useGuestData();
 

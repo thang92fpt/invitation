@@ -55,6 +55,7 @@ function LocationSection() {
                   aria-hidden="false"
                   tabIndex="0"
                   title="Peta Lokasi"
+                  alt="peta-lokasi-cangkring"
                 ></img>
               </div>
             </div>

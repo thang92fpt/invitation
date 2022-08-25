@@ -1,12 +1,6 @@
-import ImgKembaliBerjumpa from '@assets/images/p-kembali-berjumpa.jpg';
-import ImgJakartaKroasia from '@assets/images/p-jakarta-kroasia.jpg';
-import ImgBoarding from '@assets/images/p-boarding-smg.jpg';
-import ImgKembaliKeIndonesia from '@assets/images/p-kembali-ke-indonesia.jpg';
-import ImgNdodokLawang from '@assets/images/p-ndodok-lawang.jpg';
 import ImgKhitbah from '@assets/images/khitbah.jpg';
 import ImgTransStudio from '@assets/images/trans-studio.jpg';
 import ImgPerkenalanKeluarga from '@assets/images/perkenalan-keluarga.jpg';
-import ImgPertemuanKeluarga from '@assets/images/pertemuan-keluarga.jpg';
 import ImgArinMiftah from '@assets/images/arin-miftah.png';
 
 export const stories = [
