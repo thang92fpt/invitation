@@ -8,7 +8,7 @@ function GenerateLink() {
   const [type, setType] = useState(PERSONAL);
   const [name, setName] = useState();
   const [showResult, setShowResult] = useState(false);
-  const [setSuccessCopy] = useState(false);
+  const [successCopy, setSuccessCopy] = useState(false);
 
   const { data, loading } = useGuestData();
 
@@ -27,7 +27,7 @@ function GenerateLink() {
     try {
       await navigator.clipboard.writeText(text);
       setSuccessCopy(true);
-      showAlert && alert('Berhasil');
+      showAlert && alert('Berhasil !');
     } catch (err) {
       setSuccessCopy(false);
       alert('Failed to copy! :(');
@@ -73,16 +73,17 @@ function GenerateLink() {
       return (
         <div className="col-md-4 col-md-offset-4">
           <div class="alert alert-success" role="alert" style={{ marginTop: '20px' }}>
-            <strong>Berhasil!</strong> <br />
+            <strong>Berhasil !</strong> <br />
             <a href={URL} target="_blank" rel="noreferrer" style={{ color: 'green', textDecoration: 'underline' }}>
               {URL}
             </a>
             <button
-              className="btn btn-default btn-sm"
+              type="button"
+              className="btn btn-default btn-xs"
               style={{ fontSize: '12px', padding: '4px 8px', marginLeft: '4px' }}
-              onClick={() => handleCopy(URL, true)}
+              onClick={() => handleCopy(URL)}
             >
-              copy
+              {successCopy ? 'copied' : 'copy'}
             </button>
           </div>
         </div>
@@ -115,9 +116,10 @@ function GenerateLink() {
                           {mapURL}
                         </a>
                         <button
-                          className="btn btn-default btn-sm"
+                          type="button"
+                          className="btn btn-default btn-xs"
                           style={{ fontSize: '12px', padding: '4px 8px', marginLeft: '4px' }}
-                          onClick={() => handleCopy(mapURL, true)}
+                          onClick={() => handleCopy(mapURL)}
                         >
                           copy
                         </button>
