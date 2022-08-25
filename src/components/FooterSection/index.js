@@ -1,6 +1,5 @@
 import React, { Fragment } from 'react';
 import { bool } from 'prop-types';
-import { styWrapper } from '../HelloSection/styles';
 
 function FooterSection({ isInvitation }) {
   return (

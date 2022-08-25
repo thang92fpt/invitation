@@ -3,7 +3,6 @@ import React from 'react';
 import IconMask from './assets/face-mask.png';
 import IconSocialDistancing from './assets/social-distancing.png';
 import IconGuest from './assets/parents.png';
-import IconDoctor from './assets/doctor.png';
 import IconClock from './assets/clock.png';
 import IconQRcode from './assets/qr.png';
 import SectionBox from './SectionBox';
