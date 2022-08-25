@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 import { GOOGLE_MAPS_LINK } from '@/constants';
 import { styWrapper } from './styles';
+import Peta from '@assets/images/peta.jpeg';
 
 function LocationSection() {
   return (
@@ -39,6 +40,23 @@ function LocationSection() {
                 tabIndex="0"
                 title="Google Maps - Arin & Miftah Wedding Party"
               ></iframe>
+            </div>
+            <div className="row">
+              <div className="col-md-10 col-md-offset-1">
+                <img
+                  src={Peta}
+                  class="center"
+                  display="block"
+                  margin-left="auto"
+                  margin-right="auto"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  aria-hidden="false"
+                  tabIndex="0"
+                  title="Peta Lokasi"
+                ></img>
+              </div>
             </div>
           </div>
         </div>
