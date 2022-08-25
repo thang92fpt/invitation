@@ -19,7 +19,12 @@ function TicketData({ guest, configData }) {
           <div class="tinfo">Nama</div>
           <div class="tdata name">{guest.name}</div>
           <div class="tinfo">Keterangan</div>
-          <div class="tdata">{guest.desc}</div>
+          {guest.desc && (
+            <div class="tdata">{guest.desc}</div>
+          )}
+          {!guest.desc && (
+            <div class="tdata">-</div>
+          )}
           <div class="tinfo">Waktu</div>
           <div class="tdata">
             11.00 s/d 15.00 WIB
