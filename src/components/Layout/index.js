@@ -22,7 +22,7 @@ function MainLayout({ children }) {
 
         {/* font and SEO tags */}
         <meta property="og:title" content="The Wedding of Arin & Miftah" />
-        <meta property="og:image" content={IMAGE_URL} />
+        <meta property="og:image" itemprop="image" content={IMAGE_URL} />
         <meta property="og:url" content="http://arin.miftahussalam.com" />
         <meta property="og:site_name" content="The Wedding of Arin & Miftah" />
         <meta property="og:description" content={META_DESCRIPTION} />
