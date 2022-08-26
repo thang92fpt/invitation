@@ -35,6 +35,11 @@ function GenerateLink() {
     }
   };
 
+  const handleResult = async () => {
+    setShowResult(true)
+    setSuccessCopy(false);
+  };
+
   const renderContentType = () => {
     if (type === PERSONAL) {
       return (
@@ -49,7 +54,7 @@ function GenerateLink() {
               placeholder="Nama tamu.."
             ></input>
           </div>
-          <button type="submit" class="btn btn-primary" onClick={() => setShowResult(true)}>
+          <button type="submit" class="btn btn-primary" onClick={() => handleResult()}>
             Generate Link
           </button>
         </Fragment>
@@ -59,7 +64,7 @@ function GenerateLink() {
     if (type === ALL) {
       return (
         <Fragment>
-          <button type="submit" class="btn btn-primary" onClick={() => setShowResult(true)}>
+          <button type="submit" class="btn btn-primary" onClick={() => handleResult(true)}>
             Generate Link
           </button>
         </Fragment>
