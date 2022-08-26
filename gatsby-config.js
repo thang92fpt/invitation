@@ -12,6 +12,7 @@ module.exports = {
     'gatsby-plugin-eslint',
     `gatsby-plugin-emotion`,
     'gatsby-optional-chaining',
+    'clipboard-copy',
     {
       resolve: 'gatsby-alias-imports',
       options: {
