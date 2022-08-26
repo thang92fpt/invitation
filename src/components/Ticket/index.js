@@ -6,7 +6,7 @@ import { Link } from 'gatsby';
 import { styWrapper } from './styles';
 
 function TicketData({ guest, configData }) {
-  const URL = `http://arin.miftahussalam.com?to=${encodeURIComponent(guest.name)}&type=invitation&code=${guest.code}`;
+  const URL = `https://arin.miftahussalam.com?to=${encodeURIComponent(guest.name)}&type=invitation&code=${guest.code}`;
   return (
     <div css={styWrapper}>
       <div class="container">
