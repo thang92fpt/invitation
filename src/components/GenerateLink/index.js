@@ -36,7 +36,7 @@ function GenerateLink() {
   };
 
   const handleResult = async () => {
-    setShowResult(true)
+    setShowResult(true);
     setSuccessCopy(false);
   };
 

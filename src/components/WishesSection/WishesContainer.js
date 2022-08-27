@@ -3,6 +3,7 @@ import React, { useState, useEffect, useCallback } from 'react';
 import WishesItem from './WishesItem';
 import { wishlist } from './wishlist-data';
 import { styButtonWrapper } from './styles';
+import { Link } from 'gatsby';
 
 const INTERVAL_SLIDE = 35000;
 
@@ -65,7 +66,13 @@ function WishesContainer() {
         <button className="btn btn-sm button-nav" onClick={() => handleSetActive(false)}>{`< Sebelumnya`}</button>
         <button className="btn btn-sm button-nav" onClick={() => handleSetActive(true)}>{`Selanjutnya >`}</button>
       </div>
-    </div>
+      <br></br>
+      <div css={styButtonWrapper}>
+        <Link to={`/send-wishes`}>
+          <button className="btn btn-default btn-block">Kirim Ucapan</button>
+        </Link>
+      </div>
+      </div>
   );
 }
 
