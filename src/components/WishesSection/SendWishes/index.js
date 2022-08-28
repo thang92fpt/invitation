@@ -132,6 +132,9 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   <li>
                     Ucapan ini akan ditampilkan di halaman depan, tapi tidak realtime (ada jeda waktu)
                   </li>
+                  <li>
+                    Ukuran foto tidak perlu presisi, karna nanti akan disesuaikan lagi
+                  </li>
                 </ul>
                 <br />
               </div>
