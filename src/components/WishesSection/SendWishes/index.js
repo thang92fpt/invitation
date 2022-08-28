@@ -27,22 +27,24 @@ function SendWishes() {
   };
 
   const handleWishesData = async () => {
-//    if (!name || !infoName || !wishes || !image){
-//        alert('silahkan lengkapi data !');
-//    } else {
-//      try {
-//        var blob = new Blob([`${name}, ${image}, ${infoName}, ${wishes}`],
-//          { type: "text/plain;charset=utf-8" });
-//        saveAs(blob, "wishes.txt");
-//        var data = new FormData();
-//        data.append("upfile", new Blob(["CONTENT"], {type: "text/plain"}));
-//        fetch("SERVER.SCRIPT", { method: "POST", body: data });
-
-        alert(`berhasil dikirim ${image}`);
-//      } catch (err) {
-//        alert('gagal kirim');
-//      }
-//    }
+    if (!name || !infoName || !wishes || !image){
+        alert('silahkan lengkapi data !');
+    } else {
+      try {
+        const params = {
+            'name': name,
+            'description': infoName,
+            'wishes': wishes,
+        }
+        let url = 'http://localhost:8013/wishes?' + ( new URLSearchParams( params ) ).toString();
+        await fetch(url, { mode: 'no-cors'}, {
+            method: 'GET'
+        });
+        alert(`berhasil dikirim`);
+      } catch (err) {
+        alert('gagal kirim');
+      }
+    }
   };
 
   return (
@@ -115,9 +117,6 @@ function SendWishes() {
               <div class="tinfo">Note:</div>
               <div class="tdata additional">
                 <ul style={{ paddingLeft: '16px' }}>
-                  <li>
-                    Harap mengisi nama dan keterangan yang sebenarnya
-                  </li>
                   <li>
                     Ucapan ini akan ditampilkan di halaman depan, tapi tidak realtime (ada jeda waktu)
                   </li>

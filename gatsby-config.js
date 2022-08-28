@@ -13,7 +13,6 @@ module.exports = {
     `gatsby-plugin-emotion`,
     'gatsby-optional-chaining',
     'clipboard-copy',
-    'file-saver',
     {
       resolve: 'gatsby-alias-imports',
       options: {
