@@ -22,9 +22,6 @@ function SendWishes() {
     reader.readAsDataURL(file);
     reader.onload = function () {
       setImage(reader.result)
-      const copy = require('clipboard-copy')
-      copy(reader.result)
-      alert(reader.result);
     };
     var showImage = document.getElementById('showImage');
     if (file) {
@@ -56,7 +53,7 @@ function SendWishes() {
         await fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
         });
-        alert(`berhasil dikirim ${image}`);
+        alert('berhasil dikirim');
       } catch (err) {
         alert('gagal kirim');
       }
