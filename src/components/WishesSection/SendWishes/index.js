@@ -50,7 +50,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
             'invitation_code': urlCode,
             'invitation_name': urlName,
         }
-        let url = 'http://localhost:8013/wishes?' + ( new URLSearchParams( params ) ).toString();
+        let url = 'https://arin.miftahussalam.com/wishes?' + ( new URLSearchParams( params ) ).toString();
         fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
         });
