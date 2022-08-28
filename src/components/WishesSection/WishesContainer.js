@@ -4,10 +4,11 @@ import WishesItem from './WishesItem';
 import { wishlist } from './wishlist-data';
 import { styButtonWrapper } from './styles';
 import { Link } from 'gatsby';
+import { string } from 'prop-types';
 
 const INTERVAL_SLIDE = 35000;
 
-function WishesContainer() {
+function WishesContainer( {codeLink} ) {
   const [active, setActive] = useState(0);
   const [pauseSlide, setPauseSlide] = useState(false);
   const totalWishes = wishlist.length || 0;
@@ -68,12 +69,16 @@ function WishesContainer() {
       </div>
       <br></br>
       <div css={styButtonWrapper}>
-        <Link to={`/send-wishes`}>
+        <Link to={`/send-wishes?${codeLink}`}>
           <button className="btn btn-default btn-block">Kirim Ucapan</button>
         </Link>
       </div>
       </div>
   );
 }
+
+WishesContainer.propTypes = {
+  codeLink: string.isRequired,
+};
 
 export default React.memo(WishesContainer);

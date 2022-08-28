@@ -1,7 +1,8 @@
 import React from 'react';
 import WishesContainer from './WishesContainer';
+import { string } from 'prop-types';
 
-function WishesSection() {
+function WishesSection( {codeLink} ) {
   return (
     <div id="fh5co-testimonial">
       <div className="container">
@@ -13,7 +14,7 @@ function WishesSection() {
           </div>
           <div className="row">
             <div className="col-md-12">
-              <WishesContainer />
+              <WishesContainer codeLink={codeLink} />
             </div>
           </div>
         </div>
@@ -21,5 +22,9 @@ function WishesSection() {
     </div>
   );
 }
+
+WishesContainer.propTypes = {
+  codeLink: string.isRequired,
+};
 
 export default WishesSection;
