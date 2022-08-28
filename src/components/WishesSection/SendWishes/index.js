@@ -5,6 +5,7 @@ import { Link } from 'gatsby';
 function SendWishes() {
   const [name, setName] = useState();
   const [image, setImage] = useState();
+  const [imageFilename, setImageFilename] = useState();
   const [infoName, setInfoName] = useState();
   const [wishes, SetWishes] = useState();
 
@@ -13,9 +14,22 @@ function SendWishes() {
   };
 
   const handleSetImage = (e) => {
-//    const reader = new FileReader();
-//    reader.readAsDataURL(e);
-    setImage(e.target.value);
+    setImageFilename(e.target.value);
+    //dua2nya bisa dipakai
+//    var file = document.querySelector('input[type="file"]').files[0];
+    var file = e.target.files[0];
+    var reader = new FileReader();
+    reader.readAsDataURL(file);
+    reader.onload = function () {
+      setImage(reader.result)
+      const copy = require('clipboard-copy')
+      copy(reader.result)
+      alert(reader.result);
+    };
+    var showImage = document.getElementById('showImage');
+    if (file) {
+      showImage.src = URL.createObjectURL(file)
+    }
   };
 
   const handleSetInfoName = (e) => {
@@ -27,7 +41,7 @@ function SendWishes() {
   };
 
   const handleWishesData = async () => {
-    if (!name || !infoName || !wishes || !image){
+    if (!name || !infoName || !wishes){
         alert('silahkan lengkapi data !');
     } else {
       try {
@@ -35,12 +49,14 @@ function SendWishes() {
             'name': name,
             'description': infoName,
             'wishes': wishes,
+            'image': image,
+            'image_filename': imageFilename,
         }
         let url = 'http://localhost:8013/wishes?' + ( new URLSearchParams( params ) ).toString();
         await fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
         });
-        alert(`berhasil dikirim`);
+        alert(`berhasil dikirim ${image}`);
       } catch (err) {
         alert('gagal kirim');
       }
@@ -62,23 +78,24 @@ function SendWishes() {
                   value={name}
                   onChange={handleSetName}
                   type="text"
+                  name='name'
                   class="form-control"
                   placeholder=""
                   required
                 ></input>
               </div>
               <div class="form-group">
-                <label for="image">Foto</label>
+                <label for="image">Foto (Optional)</label>
                 <input
-                  value={image}
+                  value={imageFilename}
                   onChange={handleSetImage}
                   type="file"
-                  class="form-control"
+                  class="form-control-file"
                   id="img"
-                  name="img"
                   accept="image/*"
-                  required
                 ></input>
+                <br></br>
+                <img id="showImage" src='#' alt="foto" width="200px" height="200px"/>
               </div>
               <div class="form-group">
                 <label for="infoName">Keterangan</label>
@@ -98,7 +115,6 @@ function SendWishes() {
                     onChange={handleSetWishes}
                     rows="5"
                     cols="60"
-                    name="wishes"
                     class="form-control"
                     placeholder="Tulis ucapan"
                     required
