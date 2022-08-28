@@ -41,7 +41,6 @@ function SendWishes( {urlCode, urlName, urlType} ) {
     if (!name || !infoName || !wishes){
         alert('silahkan lengkapi data !');
     } else {
-      try {
         const params = {
             'name': name,
             'description': infoName,
@@ -52,14 +51,11 @@ function SendWishes( {urlCode, urlName, urlType} ) {
             'invitation_name': urlName,
         }
         let url = 'http://localhost:8013/wishes?' + ( new URLSearchParams( params ) ).toString();
-        await fetch(url, { mode: 'no-cors'}, {
+        fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
         });
         alert('berhasil dikirim');
-      } catch (err) {
-        alert('gagal kirim');
-//        window.location.assign(`/?code=${urlCode}&name=${urlName}&type=${urlType}`);
-      }
+        window.location.assign(`/send-wishes?code=${urlCode}&name=${urlName}&type=${urlType}`);
     }
   };
 
@@ -92,6 +88,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   class="form-control-file"
                   id="img"
                   accept="image/*"
+                  required
                 ></input>
                 <br></br>
                 <img id="showImage" src='#' alt="foto" width="200px" height="200px"/>
@@ -119,7 +116,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     required
                 ></textarea>
               </div>
-              <button type="submit" class="btn btn-primary" onClick={() => handleWishesData()}>
+              <button type="reset" class="btn btn-primary" onClick={() => handleWishesData()}>
                 Kirim
               </button>
               <br></br>
