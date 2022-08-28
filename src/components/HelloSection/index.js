@@ -7,7 +7,7 @@ import Groom from '@assets/images/p-miftah.jpg';
 import { styWrapper } from './styles';
 
 function HelloSection({ isInvitation }) {
-  const finalSubtitle = isInvitation ? '11 September 2022, Baleendah, Bandung' : 'Minggu, 11 September 2022';
+  const finalSubtitle = 'Minggu, 11 September 2022';
 
   return (
 	<Fragment>
