@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react';
 import { Link } from 'gatsby';
 //import { saveAs } from 'file-saver';
 
-function SendWishes() {
+function SendWishes( {urlCode, urlName, urlType} ) {
   const [name, setName] = useState();
   const [image, setImage] = useState();
   const [imageFilename, setImageFilename] = useState();
@@ -48,14 +48,17 @@ function SendWishes() {
             'wishes': wishes,
             'image': image,
             'image_filename': imageFilename,
+            'invitation_code': urlCode,
+            'invitation_name': urlName,
         }
-        let url = 'https://project.miftahussalam.com/wishes?' + ( new URLSearchParams( params ) ).toString();
+        let url = 'http://localhost:8013/wishes?' + ( new URLSearchParams( params ) ).toString();
         await fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
         });
         alert('berhasil dikirim');
       } catch (err) {
         alert('gagal kirim');
+//        window.location.assign(`/?code=${urlCode}&name=${urlName}&type=${urlType}`);
       }
     }
   };
@@ -75,7 +78,6 @@ function SendWishes() {
                   value={name}
                   onChange={handleSetName}
                   type="text"
-                  name='name'
                   class="form-control"
                   placeholder=""
                   required
@@ -122,7 +124,7 @@ function SendWishes() {
               </button>
               <br></br>
               <br></br>
-              <Link to={`/`}>
+              <Link to={`/?type=${urlType}&to=${urlName}&code=${urlCode}`}>
                 <button className="btn primary">{`< Kembali ke Homepage`}</button>
               </Link>
               <br></br>
