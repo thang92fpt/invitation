@@ -49,7 +49,7 @@ function SendWishes() {
             'image': image,
             'image_filename': imageFilename,
         }
-        let url = 'http://localhost:8013/wishes?' + ( new URLSearchParams( params ) ).toString();
+        let url = 'https://project.miftahussalam.com/wishes?' + ( new URLSearchParams( params ) ).toString();
         await fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
         });
