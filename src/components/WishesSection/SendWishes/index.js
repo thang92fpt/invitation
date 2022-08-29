@@ -61,7 +61,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
 
   return (
     <div>
-      <h2 className="title">Write Your Wishes</h2>
+      <h2 className="title">Say Something For Us</h2>
       <h3 className="title__sub">Arin & Miftah Wedding</h3>
 
       <Fragment>
@@ -130,7 +130,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
               <div class="tdata additional">
                 <ul style={{ paddingLeft: '16px' }}>
                   <li>
-                    Ucapan ini akan ditampilkan di halaman depan, tapi tidak realtime (ada jeda waktu)
+                    Ucapan ini akan tampil di halaman depan, tapi tidak realtime (ada jeda waktu)
                   </li>
                   <li>
                     Ukuran foto tidak perlu presisi, karna akan menyesuaikan
