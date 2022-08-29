@@ -1,5 +1,6 @@
 import React, { useState, Fragment } from 'react';
 import { Link } from 'gatsby';
+import malePhoto from '@components/WishesSection/assets/male.png';
 //import { saveAs } from 'file-saver';
 
 function SendWishes( {urlCode, urlName, urlType} ) {
@@ -91,9 +92,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   required
                 ></input>
                 <br></br>
-                {imageFilename && (
-                  <img id="showImage" src='#' alt="foto" width="200px" height="200px"/>
-                )}
+                <img id="showImage" src={malePhoto} alt="foto" width="30%" height="30%"/>
               </div>
               <div class="form-group">
                 <label for="infoName">Keterangan</label>
@@ -114,7 +113,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     rows="5"
                     cols="60"
                     class="form-control"
-                    placeholder="Tulis ucapan"
+                    placeholder="Tulis pesan"
                     required
                 ></textarea>
               </div>

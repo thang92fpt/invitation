@@ -70,7 +70,7 @@ function WishesContainer( {codeLink} ) {
       <br></br>
       <div css={styButtonWrapper}>
         <Link to={`/send-wishes?${codeLink}`}>
-          <button className="btn btn-default btn-block">Kirim Ucapan</button>
+          <button className="btn btn-default btn-block">Tulis Pesan</button>
         </Link>
       </div>
       </div>
