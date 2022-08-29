@@ -106,7 +106,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                 ></input>
               </div>
               <div class="form-group">
-                <label for="wishes">Ucapan</label>
+                <label for="wishes">Pesan</label>
                 <textarea
                     value={wishes}
                     onChange={handleSetWishes}
@@ -131,7 +131,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
               <div class="tdata additional">
                 <ul style={{ paddingLeft: '16px' }}>
                   <li>
-                    Ucapan ini akan tampil di halaman depan, tapi tidak realtime (ada jeda waktu)
+                    Pesan ini akan tampil di halaman depan, tapi tidak realtime (ada jeda waktu)
                   </li>
                   <li>
                     Ukuran foto tidak perlu presisi, karna akan menyesuaikan
