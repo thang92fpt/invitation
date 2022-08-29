@@ -7,7 +7,7 @@ export const wishlist = [
   {
     name: 'Bunga Citra Lestari',
     infoName: 'Teman SMP Arin',
-    description: `selamat menempuh hidup baru Arin dan Miftah semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy!🥰🤗 aamiin`,
+    description: `Selamat menempuh hidup baru Arin dan Miftah semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy!🥰🤗 aamiin`,
     image: bcl,
   },
   {
