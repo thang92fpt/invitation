@@ -91,7 +91,9 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   required
                 ></input>
                 <br></br>
-                <img id="showImage" src='#' alt="foto" width="200px" height="200px"/>
+                {imageFilename && (
+                  <img id="showImage" src='#' alt="foto" width="200px" height="200px"/>
+                )}
               </div>
               <div class="form-group">
                 <label for="infoName">Keterangan</label>
