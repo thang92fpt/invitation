@@ -61,7 +61,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
 
   return (
     <div>
-      <h2 className="title">Kirim Ucapan Untuk Calon Mempelai</h2>
+      <h2 className="title">Write Your Wishes</h2>
       <h3 className="title__sub">Arin & Miftah Wedding</h3>
 
       <Fragment>
@@ -133,7 +133,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     Ucapan ini akan ditampilkan di halaman depan, tapi tidak realtime (ada jeda waktu)
                   </li>
                   <li>
-                    Ukuran foto tidak perlu presisi, karna nanti akan disesuaikan lagi
+                    Ukuran foto tidak perlu presisi, karna akan menyesuaikan
                   </li>
                 </ul>
                 <br />
