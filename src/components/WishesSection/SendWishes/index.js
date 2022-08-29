@@ -75,7 +75,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   onChange={handleSetName}
                   type="text"
                   class="form-control"
-                  placeholder=""
+                  placeholder={urlName}
                   required
                 ></input>
               </div>
