@@ -22,6 +22,7 @@ function GenerateLink() {
 
   const handleSetName = (e) => {
     setName(e.target.value);
+    setSuccessCopy(false);
   };
 
   const handleCopy = async (text, showAlert = false) => {
