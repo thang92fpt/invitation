@@ -8,7 +8,7 @@ export const stories = [
     title: 'Perkenalan ',
     date: '21 Juli 2020',
     description:
-      'Kami bisa berkenalan melalui wasilah teman kerja saya, lebih tepatnya salah satu atasan saya di tempat kerja yang kebetulan juga merupakan om nya Arin. Kami berkenalan secara online tanpa pernah bertemu secara langsung sampai kurang lebih dua tahun ke depan. Kami pun saling follow di sosial media tapi hampir tidak ada komunikasi, hanya beberapa kali saling komen story. Pada saat itu tidak banyak yang saya tau tentang Arin, saya hanya diberi tau oleh om nya bahwa Arin ini baru daftar kuliah setelah sebelumnya berhenti 2 tahun sejak lulus SMA karna mengikuti pendidikkan tahfidz di salah satu pondok tahfidz di Bandung.',
+      'Kami bisa berkenalan melalui wasilah teman kerja saya, lebih tepatnya salah satu atasan saya di tempat kerja yang kebetulan juga merupakan om nya Arin. Kami berkenalan secara online tanpa pernah bertemu secara langsung sampai kurang lebih dua tahun ke depan. Kami pun saling follow di sosial media tapi hampir tidak ada komunikasi, hanya beberapa kali saling komen story. Pada waktu itu tidak banyak yang saya tau tentang Arin, saya hanya diberi tau oleh om nya bahwa Arin ini baru daftar kuliah setelah sebelumnya berhenti 2 tahun sejak lulus SMA karna mengikuti pendidikkan tahfidz di salah satu pondok tahfidz di Bandung.',
     image: '',
   },
   {
