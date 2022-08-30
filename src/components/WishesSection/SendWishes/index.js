@@ -1,7 +1,8 @@
 import React, { useState, Fragment } from 'react';
 import { Link } from 'gatsby';
 import malePhoto from '@components/WishesSection/assets/male.png';
-//import { saveAs } from 'file-saver';
+import data from '@emoji-mart/data'
+import Picker from '@emoji-mart/react'
 
 function SendWishes( {urlCode, urlName, urlType} ) {
   const [name, setName] = useState();
@@ -36,6 +37,14 @@ function SendWishes( {urlCode, urlName, urlType} ) {
 
   const handleSetWishes = (e) => {
     SetWishes(e.target.value);
+  };
+
+  const handleAddEmoji = (e) => {
+    if (wishes){
+        SetWishes(wishes + e.native);
+    } else {
+        SetWishes(e.native);
+    }
   };
 
   const handleWishesData = async () => {
@@ -116,6 +125,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     placeholder="Tulis pesan"
                     required
                 ></textarea>
+                <Picker data={data} onEmojiSelect={handleAddEmoji}/>
               </div>
               <button type="reset" class="btn btn-primary" onClick={() => handleWishesData()}>
                 Kirim
