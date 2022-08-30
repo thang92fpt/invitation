@@ -2073,14 +2073,13 @@ output {
 
 .custom-emoji-botton {
   position: absolute;
-  top: 0;
-  right: 0;
+  bottom: 0;
+  left: 0;
   cursor: pointer;
   border-radius: 0;
-  border: 0px outset pink;
+  border: 1px outset #FF1493;
   background-color: transparent;
   font-size: 15px;
-  transform: scale(2);
 }
 
 .form-control {

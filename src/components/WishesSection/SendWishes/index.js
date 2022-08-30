@@ -126,7 +126,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     required
                 ></textarea>
                 <EmojiMartPicker data={data} onChange={handleAddEmoji}>
-                  <button class="custom-emoji-botton">☺</button>
+                  <button title="emoticon" class="custom-emoji-botton">😊</button>
                 </EmojiMartPicker>
               </div>
               <br></br>
