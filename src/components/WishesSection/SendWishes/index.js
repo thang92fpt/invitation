@@ -2,7 +2,7 @@ import React, { useState, Fragment } from 'react';
 import { Link } from 'gatsby';
 import malePhoto from '@components/WishesSection/assets/male.png';
 import data from '@emoji-mart/data'
-import Picker from '@emoji-mart/react'
+import EmojiMartPicker from 'emoji-mart-picker';
 
 function SendWishes( {urlCode, urlName, urlType} ) {
   const [name, setName] = useState();
@@ -98,7 +98,6 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   class="form-control-file"
                   id="img"
                   accept="image/*"
-                  required
                 ></input>
                 <br></br>
                 <img id="showImage" src={malePhoto} alt="foto" width="30%" height="30%"/>
@@ -114,8 +113,9 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                   required
                 ></input>
               </div>
-              <div class="form-group">
-                <label for="wishes">Pesan</label>
+              <label for="wishes">Pesan</label>
+              <br></br>
+              <div class="form-group custom-emoji">
                 <textarea
                     value={wishes}
                     onChange={handleSetWishes}
@@ -125,8 +125,11 @@ function SendWishes( {urlCode, urlName, urlType} ) {
                     placeholder="Tulis pesan"
                     required
                 ></textarea>
-                <Picker data={data} onEmojiSelect={handleAddEmoji}/>
+                <EmojiMartPicker data={data} onChange={handleAddEmoji}>
+                  <button class="custom-emoji-botton">☺</button>
+                </EmojiMartPicker>
               </div>
+              <br></br>
               <button type="reset" class="btn btn-primary" onClick={() => handleWishesData()}>
                 Kirim
               </button>
