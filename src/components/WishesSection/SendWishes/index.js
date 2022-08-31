@@ -28,7 +28,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
     var showImage = document.getElementById('showImage');
     if (file) {
       showImage.src = URL.createObjectURL(file)
-    }
+    };
   };
 
   const handleSetInfoName = (e) => {
@@ -61,10 +61,14 @@ function SendWishes( {urlCode, urlName, urlType} ) {
             'invitation_name': urlName,
         }
         let url = 'https://project.miftahussalam.com/wishes?' + ( new URLSearchParams( params ) ).toString();
-        fetch(url, { mode: 'no-cors'}, {
+        try{
+          await fetch(url, { mode: 'no-cors'}, {
             method: 'GET'
-        });
-        alert('berhasil dikirim');
+          });
+          alert('berhasil dikirim');
+        }catch(err){
+          alert(`gagal dikirim, mungkin ukuran foto terlalu besar. ${err}`);
+        }
         window.location.assign(`/send-wishes?code=${urlCode}&name=${urlName}&type=${urlType}`);
     }
   };
