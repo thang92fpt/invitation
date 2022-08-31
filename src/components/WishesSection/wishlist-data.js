@@ -76,9 +76,19 @@ export const wishlist = [
     image: default_image,
   },
   {
-    name: 'Rose Blackpink (Ai Lusi)',
-    infoName: 'Adik kesayangan a Miftah meureun😂',
-    description: `"Selamat melepas masa lajang mass bro semoga lancar sampai hari H, aduhh jadi sedihhh ieu tehh😅yang tadinya kemana-mana sama adiknya sekarang mah udah ada pawangnya🤭"`,
-    image: lusi,
+    name: 'Bayu Dwi R.',
+    infoName: 'Teman Seperjuangan Miftah saat Ekstensi S1',
+    description: `"Barakallah bro Miftah dan Arin.
+    Semoga pernikahannya senantiasa diberkahi oleh Allah swt. dan menjadi keluarga yang Sakinah, Mawaddah, Warrahmah.. Aamiin ya Allah"`,
+    image: default_image,
+  },
+  {
+    name: 'M. Fahmi Munadi',
+    infoName: 'Teman SMA ',
+    description: `"Bismillah..
+    Tidak ada doa yang paling diharapkan kecuali sakinah, mawadah, warahmah. (Itulah doa saya untuk kalian)
+
+    Semoga cinta kalian tidak hanya di dunia tapi sampai surga Aamiin"`,
+    image: default_image,
   }
 ];
