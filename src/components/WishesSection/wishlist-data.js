@@ -67,5 +67,11 @@ export const wishlist = [
     infoName: 'Temen ngOdoo-nya Miftah',
     description: `"Barakallah Mifs & Arin. Alhamdulillah undangan yg ditunggu tunggu akhirnya datang, sold out semua temen seperjuangan Odoo 😆. Semoga lancar acaranya menjadi keluarga yang Sakinah mawaddah warahmah saling memiliki saling melengkapi uwu 😙. Gas keun mifs abi tos 2 yeuh !! 🤣"`,
     image: ajeng,
+  },
+  {
+    name: 'Teh neng dia',
+    infoName: 'Sodaranya miftah',
+    description: `"Barrkallah sodaraku de mimif sama de Arin, semoga menjadi keluarga yang sakinah mawadah warahmah, lancar sampai hari-H nya, AminYaAllahAmin 🤲🏻"`,
+    image: default_image,
   }
 ];
