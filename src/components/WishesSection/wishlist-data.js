@@ -9,6 +9,7 @@ import ajeng from './assets/w-ajeng.jpeg';
 import lusi from './assets/w-lusi.jpg';
 import ugi from './assets/w-ugi.jpeg';
 import widi from './assets/w-widi.jpeg';
+import jaozah from './assets/w-jaozah.jpg';
 
 export const wishlist = [
   {
@@ -117,5 +118,11 @@ export const wishlist = [
     infoName: 'Misal : teman smp arin',
     description: `"Selamat mip, Pokonamah saya insya Allah rek datang langsung..."`,
     image: widi,
+  },
+  {
+    name: 'JaojahHfzh ',
+    infoName: 'Sodara miftah ',
+    description: `"Barrakallahu laka, selamat menempuh hidup baru de mimif sama de arin.semoga menjadi pernikahan yang langgeng, Sakinah,mawadah,warahmah 🤲 bahagia selalu ya!"`,
+    image: jaozah,
   }
 ];
