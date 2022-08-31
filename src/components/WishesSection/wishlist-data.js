@@ -131,5 +131,12 @@ export const wishlist = [
     infoName: 'Teman MTS dan SMA Miftah',
     description: `"Selamat menempuh hidup baru  sahabatku Miftah dan teh Arin , 'Barakallahu lakum wa baraka alaikum' (mudah-mudahan Allah memberi kalian keberkahan dan melimpahkan atas kalian keberkahan)." 🤗🤲"`,
     image: nia,
+  },
+  {
+    name: 'Neni ',
+    infoName: 'Temen MTS Miftah',
+    description: `"Barokallahulaka wabaroka 'alaika wajama'a baina kuma fikhoir... Alhamdulillah akhirnya mif menemukan teman seperjuangan buat ibadah terpanjang, mengikat perjanjian terberat dengan Allah swt, semoga dalam perjuangannya menjadi keluarga yg sakinah, mawadah, warohmah, sampai janah, serta cepat2 dikaruniai anak2 yang soleh solehah... aamiin
+    Maaf belum bisa ikut menghadiri acara pernikahannya, hanya bisa mendo'akan semoga lancar segalanya sampai hari H, sehat-sehat semuanya... aamiin"`,
+    image: default_image,
   }
 ];
