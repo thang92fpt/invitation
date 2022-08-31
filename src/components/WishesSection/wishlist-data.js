@@ -7,6 +7,8 @@ import dian from './assets/w-dian.jpg';
 import desih from './assets/w-desih.jpeg';
 import ajeng from './assets/w-ajeng.jpeg';
 import lusi from './assets/w-lusi.jpg';
+import ugi from './assets/w-ugi.jpeg';
+import widi from './assets/w-widi.jpeg';
 
 export const wishlist = [
   {
@@ -96,5 +98,24 @@ export const wishlist = [
 
     Semoga cinta kalian tidak hanya di dunia tapi sampai surga Aamiin"`,
     image: default_image,
+  },
+  {
+    name: 'Ugi',
+    infoName: 'Aku yang kau sakiti',
+    description: `"Harusnya aku yang disana, dampingimu dan bukan dia. Harusnya aku yang kau cinta dan bukan diaaaa.....😂"`,
+    image: ugi,
+  },
+  {
+    name: 'Rini Nur Arifah',
+    infoName: 'Temam MTS Miftah',
+    description: `"Miftah....
+    Mudah mudahan pernikahannya langgeng sehidup seSyurga ya..Aamiin ya Alloh..."`,
+    image: default_image,
+  },
+  {
+    name: 'Pawang python',
+    infoName: 'Misal : teman smp arin',
+    description: `"Selamat mip, Pokonamah saya insya Allah rek datang langsung..."`,
+    image: widi,
   }
 ];
