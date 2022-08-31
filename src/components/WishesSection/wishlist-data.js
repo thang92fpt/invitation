@@ -84,7 +84,7 @@ export const wishlist = [
   },
   {
     name: 'M. Fahmi Munadi',
-    infoName: 'Teman SMA ',
+    infoName: 'Teman SMA Arin',
     description: `"Bismillah..
     Tidak ada doa yang paling diharapkan kecuali sakinah, mawadah, warahmah. (Itulah doa saya untuk kalian)
 
