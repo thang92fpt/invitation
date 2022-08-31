@@ -6,6 +6,7 @@ import jilan from './assets/w-jilan.jpeg';
 import dian from './assets/w-dian.jpg';
 import desih from './assets/w-desih.jpeg';
 import ajeng from './assets/w-ajeng.jpeg';
+import lusi from './assets/w-lusi.jpg';
 
 export const wishlist = [
   {
@@ -73,5 +74,11 @@ export const wishlist = [
     infoName: 'Sodaranya miftah',
     description: `"Barrkallah sodaraku de mimif sama de Arin, semoga menjadi keluarga yang sakinah mawadah warahmah, lancar sampai hari-H nya, AminYaAllahAmin 🤲🏻"`,
     image: default_image,
+  },
+  {
+    name: 'Rose Blackpink (Ai Lusi)',
+    infoName: 'Adik kesayangan a Miftah meureun😂',
+    description: `"Selamat melepas masa lajang mass bro semoga lancar sampai hari H, aduhh jadi sedihhh ieu tehh😅yang tadinya kemana-mana sama adiknya sekarang mah udah ada pawangnya🤭"`,
+    image: lusi,
   }
 ];
