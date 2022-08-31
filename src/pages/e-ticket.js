@@ -26,14 +26,14 @@ function ETicket({ location }) {
       const guest = data.find((g) => (g.code || '').toUpperCase() === guestCode);
 
       if (guest) {
-        if (guest.name.toUpperCase() === nameEticket.toUpperCase()) {
+        if (guest.name.toUpperCase() === codeEticket.toUpperCase()) {
           setSelectedGuest(guest);
           setIsShowTicket(true);
           return;
         }
       }
 
-      alert(`Maaf, Kode data ${guestCode} dengan nama ${nameEticket} tidak ditemukan. Mohon di cek lagi..`);
+      alert(`Maaf, Kode data ${guestCode} tidak ditemukan. Mohon di cek lagi..`);
       window.location.assign('https://arin.miftahussalam.com/');
     },
     [data, nameEticket, value],
