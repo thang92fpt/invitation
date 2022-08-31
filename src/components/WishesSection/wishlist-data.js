@@ -10,6 +10,7 @@ import lusi from './assets/w-lusi.jpg';
 import ugi from './assets/w-ugi.jpeg';
 import widi from './assets/w-widi.jpeg';
 import jaozah from './assets/w-jaozah.jpg';
+import nia from './assets/w-nia.jpg';
 
 export const wishlist = [
   {
@@ -124,5 +125,11 @@ export const wishlist = [
     infoName: 'Sodara miftah ',
     description: `"Barrakallahu laka, selamat menempuh hidup baru de mimif sama de arin.semoga menjadi pernikahan yang langgeng, Sakinah,mawadah,warahmah 🤲 bahagia selalu ya!"`,
     image: jaozah,
+  },
+  {
+    name: 'Nia Saidah',
+    infoName: 'Teman MTS dan SMA Miftah',
+    description: `"Selamat menempuh hidup baru  sahabatku Miftah dan teh Arin , 'Barakallahu lakum wa baraka alaikum' (mudah-mudahan Allah memberi kalian keberkahan dan melimpahkan atas kalian keberkahan)." 🤗🤲"`,
+    image: nia,
   }
 ];
