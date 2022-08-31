@@ -4,6 +4,7 @@ import selena from './assets/w-selena.jpg';
 import luffy from './assets/w-luffy.jpg';
 import jilan from './assets/w-jilan.jpeg';
 import dian from './assets/w-dian.jpg';
+import desih from './assets/w-desih.jpeg';
 
 export const wishlist = [
   {
@@ -51,5 +52,13 @@ export const wishlist = [
     infoName: 'Teman sekaligus sodara miftah',
     description: `"selamat menempuh hidup baru buat sodaraku miftah dan Arin semoga menjadi keluarga yang sakinah,mawadah,warahmah ,semoga selalu dlm ridho Allah SWT dan di limpahi keberkahan ny serta selalu di mudahkan urusanny dalam langkah2 berikutny 🤲🤲😇"`,
     image: dian,
+  },
+  {
+    name: 'Desih Bieber',
+    infoName: 'Temen NgeJournal Miftah',
+    description: `"Ihiiiiw alhamdulillaah akhirnya miftah sold out juga, ga jadi ceng2an lagi digroup 🤣
+    semoga sakinah mawaddah warohmah yaa, miftah dan calon istri. dipasihan kalancaran kanggo sadayana, sehat2 calon manten..
+    yuyur insyekyuuur banget liat temen2 miftah sama arin ini 😫"`,
+    image: desih,
   }
 ];
