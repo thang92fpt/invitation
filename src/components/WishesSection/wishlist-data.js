@@ -5,6 +5,7 @@ import luffy from './assets/w-luffy.jpg';
 import jilan from './assets/w-jilan.jpeg';
 import dian from './assets/w-dian.jpg';
 import desih from './assets/w-desih.jpeg';
+import ajeng from './assets/w-ajeng.jpeg';
 
 export const wishlist = [
   {
@@ -60,5 +61,11 @@ export const wishlist = [
     semoga sakinah mawaddah warohmah yaa, miftah dan calon istri. dipasihan kalancaran kanggo sadayana, sehat2 calon manten..
     yuyur insyekyuuur banget liat temen2 miftah sama arin ini 😫"`,
     image: desih,
+  },
+  {
+    name: 'Jengsil',
+    infoName: 'Temen ngOdoo-nya Miftah',
+    description: `"Barakallah Mifs & Arin. Alhamdulillah undangan yg ditunggu tunggu akhirnya datang, sold out semua temen seperjuangan Odoo 😆. Semoga lancar acaranya menjadi keluarga yang Sakinah mawaddah warahmah saling memiliki saling melengkapi uwu 😙. Gas keun mifs abi tos 2 yeuh !! 🤣"`,
+    image: ajeng,
   }
 ];
