@@ -3,6 +3,7 @@ import { Link } from 'gatsby';
 import malePhoto from '@components/WishesSection/assets/male.png';
 import data from '@emoji-mart/data'
 import EmojiMartPicker from 'emoji-mart-picker';
+import imageCompression from 'browser-image-compression';
 
 function SendWishes( {urlCode, urlName, urlType} ) {
   const [name, setName] = useState();
@@ -15,13 +16,19 @@ function SendWishes( {urlCode, urlName, urlType} ) {
     setName(e.target.value);
   };
 
-  const handleSetImage = (e) => {
+  const handleSetImage = async (e) => {
     setImageFilename(e.target.value);
     //dua2nya bisa dipakai
 //    var file = document.querySelector('input[type="file"]').files[0];
     var file = e.target.files[0];
+    const options = {
+      maxSizeMB: 1,
+      maxWidthOrHeight: 1920,
+      useWebWorker: true
+    }
+    const compressedFile = await imageCompression(file, options);
     var reader = new FileReader();
-    reader.readAsDataURL(file);
+    reader.readAsDataURL(compressedFile);
     reader.onload = function () {
       setImage(reader.result)
     };
