@@ -73,6 +73,10 @@ function WishesContainer( {codeLink} ) {
           <button className="btn btn-default btn-block">Tulis Pesan</button>
         </Link>
       </div>
+      <br></br>
+      <div css={styButtonWrapper}>
+        <span>Note: Bagi yang merasa sudah mengirimkan pesan tapi belum muncul, silahkan untuk kirim ulang dikarenakan ada kesalahan teknis 🙏</span>
+      </div>
       </div>
   );
 }

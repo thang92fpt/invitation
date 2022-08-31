@@ -1093,6 +1093,18 @@
     },
     {
         "attendedAt": "",
+        "code": "AXM-0281",
+        "desc": "Bandung",
+        "exchangedAt": "",
+        "exchangedBy": "",
+        "isAttended": "",
+        "isExchanged": "",
+        "name": "Sadriah dan Ida Sastradirja",
+        "shift": 1,
+        "updatedBy": ""
+    },
+    {
+        "attendedAt": "",
         "code": "AXM-0401",
         "desc": "",
         "exchangedAt": "",
