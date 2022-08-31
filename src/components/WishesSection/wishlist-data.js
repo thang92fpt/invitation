@@ -1,34 +1,55 @@
-import bcl from './assets/w-bcl.jpg';
-import rambo from './assets/w-rambo.jpg';
-import angel from './assets/w-angel.jpg';
-import iko from './assets/w-iko-uwais.jpg';
+import default_image from './assets/male.png';
+import hani from './assets/w-hani.jpg';
+import selena from './assets/w-selena.jpg';
+import luffy from './assets/w-luffy.jpg';
+import jilan from './assets/w-jilan.jpeg';
+import dian from './assets/w-dian.jpg';
 
 export const wishlist = [
   {
-    name: 'Bunga Citra Lestari',
-    infoName: 'Teman SMP Arin',
-    description: `Selamat menempuh hidup baru Arin dan Miftah semoga menjadi pasangan teman hidup selamanya sesurga, enjoy your little family always be happy!🥰🤗 aamiin`,
-    image: bcl,
+    name: 'Hani',
+    infoName: 'Teman SMP arin',
+    description: `"Maa sya Allah... Alhamdulillah arin🤗
+    Mugia lancar saterasna
+    Aamiin☺️"`,
+    image: hani,
   },
   {
-    name: 'Sylvester Stallone',
-    infoName: 'Teman Kuliah Arin',
-    description: `"Hey Rin!  Finally ..... Happy Wedding!  Hopefully become a family that Sakinah Mawaddah Warohmah until HIS heaven later!
-    Become a blessed family and always be happy!  May your dreams always be achieved!  Always complement and support each other!
-    I will wait for 5 children yea! Hihi 😅😅😘"`,
-    image: rambo,
+    name: 'My moon',
+    infoName: 'GPWC ❣️',
+    description: `"Barakallah arinnnn🥰 semoga Allah selalu memberi jalan terbaik untuk kamu❤️ Cinta yang di awali dengan Ridha Allah dan niat yang baik pasti akan selalu ada dalam lindungan serta limpahan  kasih sayang Allah, insyaa Allah ❤️ Ily ❤️"`,
+    image: default_image,
   },
   {
-    name: 'Angelina Jolie',
-    infoName: 'Teman SMA Miftah',
-    description: `Semoga pernikahan ini membawa Arin dan Miftah dalam ketentraman (sakinah), cinta (mawaddah) dan welas asih (rohmah). Jika saja semakin tumbuhnya cinta itu tak muat masuk ke rongga dada, semoga Allah berikan kelapangan rasa. Semoga Allah mudahkan segala tujuan awal saat kalian berdua memutuskan bersama:)`,
-    image: angel,
+    name: 'Selena Gemesh',
+    infoName: "arini's friend",
+    description: `"MashaAllah akhirnyaa ain🥺🥺🥺sebentar lg km akan mengarungi bahtera rumah tangga.. didepan nanti akan ada ujian dan rintangan yg datang silih berganti, semoga Allah senantiasa memberikan kalian kekuatan utk bs sama2 menghadapinya✨
+    bingung mau ngomong apalagi, yaa intinya smg bahagia Sedunia dan Seakhirat🥺"`,
+    image: selena,
   },
   {
-    name: 'Iko Uwais',
-    infoName: 'Rekan Kerja Miftah, Bina San Prima',
-    description: `"Selamat berbahagia, semoga semakin berkah kehidupannya dan bisa saling melengkapi satu dengan yang lain.
-      Semoga pernikahannya bisa dilanggengkan."`,
-    image: iko,
+    name: 'Zalfa ',
+    infoName: 'Teman kuliah Arin di Himi',
+    description: `"Maa syaa Allah, Baarakallah bebb. Mudah2an dikasih kelancaran gaa sampai hati H nantiiii🤩🤩💖
+    Sehat sehat calon pengantin🤍"`,
+    image: default_image,
+  },
+  {
+    name: 'Monkey D Luffy',
+    infoName: 'Temen Muallimien Arin ',
+    description: `"Baarakallahulaka Wabaaraka A'laika Wajamaa' bainakuma fii khair🤩"`,
+    image: luffy,
+  },
+  {
+    name: 'Jiilaan aaqilah maqdis',
+    infoName: 'Teman arin 😆',
+    description: `"Hay arinnn... udah lama kita gak pernah bertemu dan komunikasi. Selamat ya arin, semoga lancar sampai hari H. Semoga pernikahan arin pernikahan yg bisa bawa arin dan suami ke syurga nya allah. Aminn.. "`,
+    image: jilan,
+  },
+  {
+    name: 'Dian Kurniawan ',
+    infoName: 'Teman sekaligus sodara miftah',
+    description: `"selamat menempuh hidup baru buat sodaraku miftah dan Arin semoga menjadi keluarga yang sakinah,mawadah,warahmah ,semoga selalu dlm ridho Allah SWT dan di limpahi keberkahan ny serta selalu di mudahkan urusanny dalam langkah2 berikutny 🤲🤲😇"`,
+    image: dian,
   }
 ];

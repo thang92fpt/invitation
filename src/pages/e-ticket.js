@@ -26,7 +26,7 @@ function ETicket({ location }) {
       const guest = data.find((g) => (g.code || '').toUpperCase() === guestCode);
 
       if (guest) {
-        if (guest.code.toUpperCase() === codeEticket.toUpperCase()) {
+        if (guest.name.toUpperCase().includes(nameEticket.toUpperCase())) {
           setSelectedGuest(guest);
           setIsShowTicket(true);
           return;
