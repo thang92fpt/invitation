@@ -1105,13 +1105,13 @@
     },
     {
         "attendedAt": "",
-        "code": "AXM-0401",
-        "desc": "",
+        "code": "AXM-0400",
+        "desc": "Bandung",
         "exchangedAt": "",
         "exchangedBy": "",
         "isAttended": "",
         "isExchanged": "",
-        "name": "",
+        "name": "-",
         "shift": 1,
         "updatedBy": ""
     }

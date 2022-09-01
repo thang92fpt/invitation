@@ -11,6 +11,10 @@ import ugi from './assets/w-ugi.jpeg';
 import widi from './assets/w-widi.jpeg';
 import jaozah from './assets/w-jaozah.jpg';
 import nia from './assets/w-nia.jpg';
+import hasna from './assets/w-hasna.jpeg';
+import ulfi from './assets/w-ulfi.png';
+import rega from './assets/w-rega.jpg';
+import wilfan from './assets/w-wilfan.jpg';
 
 export const wishlist = [
   {
@@ -138,6 +142,53 @@ export const wishlist = [
     description: `"Barokallahulaka wabaroka 'alaika wajama'a baina kuma fikhoir... Alhamdulillah akhirnya mif menemukan teman seperjuangan buat ibadah terpanjang, mengikat perjanjian terberat dengan Allah swt, semoga dalam perjuangannya menjadi keluarga yg sakinah, mawadah, warohmah, sampai janah, serta cepat2 dikaruniai anak2 yang soleh solehah... aamiin
     Maaf belum bisa ikut menghadiri acara pernikahannya, hanya bisa mendo'akan semoga lancar segalanya sampai hari H, sehat-sehat semuanya... aamiin"`,
     image: default_image,
+  },
+  {
+    name: 'Nana Gercep',
+    infoName: 'Temen nge reog arin',
+    description: `"Arin sobi boyot aku, sobi reog, sobi gemoy, sobi cuwat ciwit. Barakallah ya rin, akhirnya sampe juga di titik ini, arin bahagia terus, happy terus, Allah tau hati kmu dan Allah lebih tau mana yang terbaik. Aku bangga banget sama kamu bisa melewati banyak hal, jangan sedih2 rin. Ya Allah aku titipkan sahabat aku yang pernah menghafal kalam-Mu bersamaan dengan ku, aku titipkan semoga selalu dalam penjagaan-Mu dan kasih sayang-Mu, Rahmati dia dan keluarganya, Ridhai perjalanan nya. Semoga Allah selalu balas kebaikan arin dengan kebahagian berlimpah dalam setiap hembusan nafas kamu rin, Arin mari bertetangga di syurga🤍🤍🤍🤍 A miftah Bawa arin ke syurga ya"`,
+    image: hasna,
+  },
+  {
+    name: 'joss',
+    infoName: 'joss',
+    description: `"joss"`,
+    image: default_image,
+  },
+  {
+    name: 'Vitraining team',
+    infoName: 'Teman satu kantor  dulu ',
+    description: `" Yeeee akhirnya a miftah 😇 , ngduluin aku btw 😁 hehe
+    Alhamdulillah , barokalloh ya a , semoga semua nya diberikan kelancaran dan keberkahan , 🤲"`,
+    image: ulfi,
+  },
+  {
+    name: 'Peter Parker',
+    infoName: 'Teman Zigot',
+    description: `"Sakinnah mawaddah wa rahmah ceu🙏"`,
+    image: default_image,
+  },
+  {
+    name: 'Ceu bestie',
+    infoName: 'Bestie nongki',
+    description: `"Hwappy Wedding ceu..
+    Barakallah bebs🕊🤍 mugia lancar dina sagala proses dugi ka hari H sreng saterasna. Sakinah mawaddah warahmah cantikquu✨️💕
+    Selebrasian nya ditunggu wkwk"`,
+    image: default_image,
+  },
+  {
+    name: 'Rega & Nurul',
+    infoName: 'Teman Kuliah Miftah',
+    description: `"Alhamdulillah, selamat untuk Miftah & Arin semoga dilancarkan, dimudahkan dan dimuluskan jalan menuju hari H pernikahan serta hidup barunya, mudah-mudahan menjadi keluarga yang sakinah mawaddah warahmah. Aaamiiin... 🤲"`,
+    image: rega,
+  },
+  {
+    name: 'Wilfan Setiawan ',
+    infoName: 'Teman SMA Miftah ',
+    description: `"Alhamdulillah ,ngiring bingah mif
+
+    Selamat menempuh hidup baru kawan ,,semoga lancar semuanya sampai hari H ,dan semoga menjadi keluarga sakinah mawadah warrahmah ..amiin "`,
+    image: wilfan,
   },
   {
     name: 'Rizal ',
