@@ -1102,5 +1102,17 @@
         "name": "Sadriah dan Ida Sastradirja",
         "shift": 1,
         "updatedBy": ""
+    },
+    {
+        "attendedAt": "",
+        "code": "AXM-0400",
+        "desc": "Bandung",
+        "exchangedAt": "",
+        "exchangedBy": "",
+        "isAttended": "",
+        "isExchanged": "",
+        "name": "-",
+        "shift": 1,
+        "updatedBy": ""
     }
 ]
