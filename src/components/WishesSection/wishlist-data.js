@@ -15,6 +15,8 @@ import hasna from './assets/w-hasna.jpeg';
 import ulfi from './assets/w-ulfi.png';
 import rega from './assets/w-rega.jpg';
 import wilfan from './assets/w-wilfan.jpg';
+import aulia from './assets/w-aulia.jpg';
+import miranti from './assets/w-miranti.jpg';
 
 export const wishlist = [
   {
@@ -199,5 +201,17 @@ export const wishlist = [
 
     Semoga sampai ke tujuan dengan selamat Amin."`,
     image: default_image,
+  },
+  {
+    name: 'Aulia RA',
+    infoName: 'Bestie arin terbaik',
+    description: `"Aaaaaa sedih bercampur senang bestie aku mo nikah🥺 semoga kelak menjadi keluarga yang selalu dipenuhi keberkahan oleh Allah swt, dianugrahi buah hati yang menjadi penyejuk hati untuk orang tuanya, pokoknya doa terbaik untuk kalian berdua🤍🤍"`,
+    image: aulia,
+  },
+  {
+    name: 'MIRANTI JAUZAN ',
+    infoName: 'TEMAN TEH ARIN DI MQR',
+    description: `"Aaaaa MasyaAllah tabarakAllah finally😍bahagia selalu teh Arin dan suami!! InsyaAllah selalu Allah jagaa aamiin. Sehat sehat yaaaa. Sending luv dari Riau, kapan kapan reuni MQR yaa hihiw see u tetehkuu!!🥰❤️❤️"`,
+    image: miranti,
   }
 ];
