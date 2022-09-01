@@ -11,6 +11,7 @@ import ugi from './assets/w-ugi.jpeg';
 import widi from './assets/w-widi.jpeg';
 import jaozah from './assets/w-jaozah.jpg';
 import nia from './assets/w-nia.jpg';
+import hasna from './assets/w-hasna.jpeg';
 
 export const wishlist = [
   {
@@ -137,6 +138,18 @@ export const wishlist = [
     infoName: 'Temen MTS Miftah',
     description: `"Barokallahulaka wabaroka 'alaika wajama'a baina kuma fikhoir... Alhamdulillah akhirnya mif menemukan teman seperjuangan buat ibadah terpanjang, mengikat perjanjian terberat dengan Allah swt, semoga dalam perjuangannya menjadi keluarga yg sakinah, mawadah, warohmah, sampai janah, serta cepat2 dikaruniai anak2 yang soleh solehah... aamiin
     Maaf belum bisa ikut menghadiri acara pernikahannya, hanya bisa mendo'akan semoga lancar segalanya sampai hari H, sehat-sehat semuanya... aamiin"`,
+    image: default_image,
+  },
+  {
+    name: 'Nana Gercep',
+    infoName: 'Temen nge reog arin',
+    description: `"Arin sobi boyot aku, sobi reog, sobi gemoy, sobi cuwat ciwit. Barakallah ya rin, akhirnya sampe juga di titik ini, arin bahagia terus, happy terus, Allah tau hati kmu dan Allah lebih tau mana yang terbaik. Aku bangga banget sama kamu bisa melewati banyak hal, jangan sedih2 rin. Ya Allah aku titipkan sahabat aku yang pernah menghafal kalam-Mu bersamaan dengan ku, aku titipkan semoga selalu dalam penjagaan-Mu dan kasih sayang-Mu, Rahmati dia dan keluarganya, Ridhai perjalanan nya. Semoga Allah selalu balas kebaikan arin dengan kebahagian berlimpah dalam setiap hembusan nafas kamu rin, Arin mari bertetangga di syurga🤍🤍🤍🤍 A miftah Bawa arin ke syurga ya"`,
+    image: hasna,
+  },
+  {
+    name: 'joss',
+    infoName: 'joss',
+    description: `"joss"`,
     image: default_image,
   }
 ];
