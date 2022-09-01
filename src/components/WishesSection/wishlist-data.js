@@ -138,5 +138,15 @@ export const wishlist = [
     description: `"Barokallahulaka wabaroka 'alaika wajama'a baina kuma fikhoir... Alhamdulillah akhirnya mif menemukan teman seperjuangan buat ibadah terpanjang, mengikat perjanjian terberat dengan Allah swt, semoga dalam perjuangannya menjadi keluarga yg sakinah, mawadah, warohmah, sampai janah, serta cepat2 dikaruniai anak2 yang soleh solehah... aamiin
     Maaf belum bisa ikut menghadiri acara pernikahannya, hanya bisa mendo'akan semoga lancar segalanya sampai hari H, sehat-sehat semuanya... aamiin"`,
     image: default_image,
+  },
+  {
+    name: 'Rizal ',
+    infoName: 'Batur guyang di lembur 🤭',
+    description: `"WELCOME ON BOARD BROTHER
+
+    Saat perahu mulai berlayar, sangat bijak rasanya untuk tetap bertahan bersama sama meskipun badai terus menerpa !
+
+    Semoga sampai ke tujuan dengan selamat Amin."`,
+    image: default_image,
   }
 ];
