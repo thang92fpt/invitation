@@ -159,5 +159,19 @@ export const wishlist = [
     description: `" Yeeee akhirnya a miftah 😇 , ngduluin aku btw 😁 hehe
     Alhamdulillah , barokalloh ya a , semoga semua nya diberikan kelancaran dan keberkahan , 🤲"`,
     image: ulfi,
+  },
+  {
+    name: 'Peter Parker',
+    infoName: 'Teman Zigot',
+    description: `"Sakinnah mawaddah wa rahmah ceu🙏"`,
+    image: default_image,
+  },
+  {
+    name: 'Ceu bestie',
+    infoName: 'Bestie nongki',
+    description: `"Hwappy Wedding ceu..
+    Barakallah bebs🕊🤍 mugia lancar dina sagala proses dugi ka hari H sreng saterasna. Sakinah mawaddah warahmah cantikquu✨️💕
+    Selebrasian nya ditunggu wkwk"`,
+    image: default_image,
   }
 ];
