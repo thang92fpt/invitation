@@ -13,6 +13,8 @@ import jaozah from './assets/w-jaozah.jpg';
 import nia from './assets/w-nia.jpg';
 import hasna from './assets/w-hasna.jpeg';
 import ulfi from './assets/w-ulfi.png';
+import rega from './assets/w-rega.jpg';
+import wilfan from './assets/w-wilfan.jpg';
 
 export const wishlist = [
   {
@@ -173,5 +175,19 @@ export const wishlist = [
     Barakallah bebs🕊🤍 mugia lancar dina sagala proses dugi ka hari H sreng saterasna. Sakinah mawaddah warahmah cantikquu✨️💕
     Selebrasian nya ditunggu wkwk"`,
     image: default_image,
+  },
+  {
+    name: 'Rega & Nurul',
+    infoName: 'Teman Kuliah Miftah',
+    description: `"Alhamdulillah, selamat untuk Miftah & Arin semoga dilancarkan, dimudahkan dan dimuluskan jalan menuju hari H pernikahan serta hidup barunya, mudah-mudahan menjadi keluarga yang sakinah mawaddah warahmah. Aaamiiin... 🤲"`,
+    image: rega,
+  },
+  {
+    name: 'Wilfan Setiawan ',
+    infoName: 'Teman SMA Miftah ',
+    description: `"Alhamdulillah ,ngiring bingah mif
+
+    Selamat menempuh hidup baru kawan ,,semoga lancar semuanya sampai hari H ,dan semoga menjadi keluarga sakinah mawadah warrahmah ..amiin "`,
+    image: wilfan,
   }
 ];
