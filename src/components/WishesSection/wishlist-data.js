@@ -12,6 +12,7 @@ import widi from './assets/w-widi.jpeg';
 import jaozah from './assets/w-jaozah.jpg';
 import nia from './assets/w-nia.jpg';
 import hasna from './assets/w-hasna.jpeg';
+import ulfi from './assets/w-ulfi.png';
 
 export const wishlist = [
   {
@@ -151,5 +152,12 @@ export const wishlist = [
     infoName: 'joss',
     description: `"joss"`,
     image: default_image,
+  },
+  {
+    name: 'Vitraining team',
+    infoName: 'Teman satu kantor  dulu ',
+    description: `" Yeeee akhirnya a miftah 😇 , ngduluin aku btw 😁 hehe
+    Alhamdulillah , barokalloh ya a , semoga semua nya diberikan kelancaran dan keberkahan , 🤲"`,
+    image: ulfi,
   }
 ];
