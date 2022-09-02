@@ -213,5 +213,11 @@ export const wishlist = [
     infoName: 'TEMAN TEH ARIN DI MQR',
     description: `"Aaaaa MasyaAllah tabarakAllah finally😍bahagia selalu teh Arin dan suami!! InsyaAllah selalu Allah jagaa aamiin. Sehat sehat yaaaa. Sending luv dari Riau, kapan kapan reuni MQR yaa hihiw see u tetehkuu!!🥰❤️❤️"`,
     image: miranti,
+  },
+  {
+    name: 'Nur',
+    infoName: 'Teman kuliah + Himi Arin',
+    description: `"Ceuu maa syaa Allah barakallah, sebentar lagi akan menempuh hidup baru yang lebih berwarna! Semoga senantiasa Allah beri banyak berkah dan kebahagiaan! Serta Allah mudahkan dan lancarkan yaa segalanya ❤️ sehat2 calon manten 🥰"`,
+    image: default_image,
   }
 ];
