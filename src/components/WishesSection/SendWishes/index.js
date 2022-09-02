@@ -74,7 +74,7 @@ function SendWishes( {urlCode, urlName, urlType} ) {
           });
           alert('berhasil dikirim');
         }catch(err){
-          alert(`gagal dikirim, mungkin ukuran foto terlalu besar. ${err}`);
+          alert(`gagal dikirim, silahkan hubungi administrator. ${err}`);
         }
         window.location.assign(`/send-wishes?code=${urlCode}&name=${urlName}&type=${urlType}`);
     }
