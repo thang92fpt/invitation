@@ -75,7 +75,7 @@ function WishesContainer( {codeLink} ) {
       </div>
       <br></br>
       <div css={styButtonWrapper}>
-        <span align="center">Note: Bagi yang beberapa hari lalu merasa sudah mengirimkan pesan tapi belum muncul, silahkan untuk kirim ulang dikarenakan ada kesalahan teknis 🙏</span>
+        <span align="center">Note: Bagi yang merasa beberapa hari lalu sudah mengirimkan pesan tapi belum muncul, silahkan untuk kirim ulang dikarenakan ada kesalahan teknis 🙏</span>
       </div>
       </div>
   );

@@ -5,6 +5,7 @@ Features:
  - Countdown Timer
  - Floating Music
  - Photo Gallery
+ - Send Message
  - And more..
 - also, this web-app has QR Guest Generator
 - and Guest Tikcet Viewer
