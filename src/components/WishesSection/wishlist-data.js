@@ -219,5 +219,13 @@ export const wishlist = [
     infoName: 'Teman kuliah + Himi Arin',
     description: `"Ceuu maa syaa Allah barakallah, sebentar lagi akan menempuh hidup baru yang lebih berwarna! Semoga senantiasa Allah beri banyak berkah dan kebahagiaan! Serta Allah mudahkan dan lancarkan yaa segalanya ❤️ sehat2 calon manten 🥰"`,
     image: default_image,
+  },
+  {
+    name: 'Teh Nuye',
+    infoName: 'Temen sekamar di pondok',
+    description: `"Barokalloh neng arin, waktu memang cepat berlalu yaa, sekarang udh gk bocil lagi😊
+Selamat menempuh ibadah terpanjang, selamat menggapai surga bersama pilihan hati.
+Semoga Allah swt selalu meridhoi setiap perjalanan rumah tanggamu dan suami."`,
+    image: default_image,
   }
 ];
