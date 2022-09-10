@@ -17,6 +17,7 @@ import rega from './assets/w-rega.jpg';
 import wilfan from './assets/w-wilfan.jpg';
 import aulia from './assets/w-aulia.jpg';
 import miranti from './assets/w-miranti.jpg';
+import zahralita from './assets/w-zahralita.jpg';
 
 export const wishlist = [
   {
@@ -227,5 +228,12 @@ export const wishlist = [
 Selamat menempuh ibadah terpanjang, selamat menggapai surga bersama pilihan hati.
 Semoga Allah swt selalu meridhoi setiap perjalanan rumah tanggamu dan suami."`,
     image: default_image,
+  },
+  {
+    name: 'Zahralita',
+    infoName: 'Temen go food arin pas di rabbani 😆',
+    description: `"Waaa MasyaAllah Barakallahu laka wa baraka alaika wa jamaa bainakuma fii khair ariiiin dan suamik
+Tadinya mau datang , tp qodarullah ini masih di jalan, selaly teriring doa buat arin dan keluarga, semoga selaly diberkahkan , dilancarkan aamiin ya rabb"`,
+    image: zahralita,
   }
 ];
