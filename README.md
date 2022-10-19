@@ -1,5 +1,7 @@
 # Arin & Miftah Wedding Website
 
+![alt text](https://github.com/Miftahussalam/wedding/blob/master/src/assets/thumbnail.jpeg?raw=true)
+
 Features:
 - Landing Page, with features like:
  - Countdown Timer
