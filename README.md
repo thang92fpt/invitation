@@ -1,6 +1,6 @@
 # Arin & Miftah Wedding Website
 
-![alt text](https://github.com/Miftahussalam/wedding/blob/master/src/assets/thumbnail.jpeg?raw=true)
+![alt text](https://github.com/Miftahussalam/wedding/blob/master/src/assets/thumbnail.png?raw=true)
 
 Features:
 - Landing Page, with features like:
