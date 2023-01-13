@@ -9,25 +9,25 @@ import '@assets/css/bootstrap.css';
 import '@assets/css/style.css';
 
 const IMAGE_URL = `https://miftahussalam.com/images/khitbahmeta.jpg`;
-const META_DESCRIPTION = `Dengan memohon Rahmat dan Ridho Illahi, teriring niat menjalankan Sunnah Rasulullah ﷺ untuk membentuk rumah tangga yang Sakinah, Mawaddah wa Rahmah, kami mohon do'a agar senantiasa diberikan kelancaran dan keberkahan. - Arin & Miftah`;
+const META_DESCRIPTION = `Đây là meta description - Thắng & Bình`;
 
 function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Arin ❤️ Miftah Wedding</title>
+        <title>Thắng ❤️ Bình Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Arin & Miftah" />
+        <meta property="og:title" content="The Wedding of Thắng & Bình" />
         <meta property="og:image" itemprop="image" content={IMAGE_URL} />
         <meta property="og:url" content="https://arin.miftahussalam.com" />
-        <meta property="og:site_name" content="The Wedding of Arin & Miftah" />
+        <meta property="og:site_name" content="The Wedding of Thắng & Bình" />
         <meta property="og:description" content={META_DESCRIPTION} />
         <meta property="og:type" content="website" />
-        <meta name="twitter:title" content="The Wedding of Arin & Miftah" />
+        <meta name="twitter:title" content="The Wedding of Thắng & Bình" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
         <meta name="twitter:image" content={IMAGE_URL} />
         <meta name="twitter:url" content="https://arin.miftahussalam.com" />
