@@ -13,24 +13,22 @@ function WeddingSection({ isInvitation }) {
         <div className="container">
           <div className="row">
             <div className="col-md-8 col-md-offset-2 text-center fh5co-heading">
-              <span className="bismillah">بِسْمِ اللَّهِ الرَّحْمَنِ الرَّحِيم</span>
-              <h2 className="main-font main-font__wedding">Akad Nikah dan Syukuran Pernikahan</h2>
-              <span className="sub-title sub-title__wedding">Insha Allah akan diselenggarakan pada:</span>
+              <h2 className="main-font main-font__wedding">Thông tin về lễ nạp tài và tân hôn</h2>
             </div>
           </div>
           <div className="row">
             <div className="col-md-10 col-md-offset-1">
             <WeddingInfoBox
-                title="Akad Nikah"
-                time="08.00 WIB"
-                date="Minggu, 11 September 2022"
-                description="Jl. Laswi Cangkring RT/RW 05/07 kel. Jelekong, kec. Baleendah, kab. Bandung"
+                title="Lễ nạp tài"
+                time="08:00"
+                date="Ngày 10 tháng 3 năm 2023"
+                description="Đông Sơn, Bỉm Sơn, Thanh Hóa"
             />
             <WeddingInfoBox
-              title="Syukuran Pernikahan"
-              time="11.00 s/d 15.00 WIB"
-              date="Minggu, 11 September 2022"
-              description="Jl. Laswi Cangkring RT/RW 05/07 kel. Jelekong, kec. Baleendah, kab. Bandung"
+              title="Lễ thành hôn và Vu quy"
+              time="10:00"
+              date="Ngày 10 tháng 3 năm 2023"
+              description="Ba Đình, Bỉm Sơn, Thanh Hóa"
             />
             </div>
           </div>
